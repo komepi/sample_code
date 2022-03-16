@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <p>This is simple test page.</p>
+        <ul>
+            <li><input id = "bp_rule" type="button" value="blueprintでadd_ruleテスト"/></li>
+            <li><input id = "bp_get" type="button" value="blueprintテスト"/></li>
+            <li><input id = "json" type="button" value="js<->flaskのjson"/></li>
+            <li><input id = "request_data" type="button" value="js<->flaskのjson"/></li>
+            <li><input type="text" id="value"/><input id = "get_value" type="button" value="urlに値を含ませる"/></li>
+            <li><input id = "cookie_value" type="button" value="cookie(値)"/></li>
+            <li><input id = "cookie_dict" type="button" value="cookie(辞書型)"/></li>
+        </ul>
+        <script src="{{url_for('static',filename='js/test.js')}}"></script>
+    </body>
+</html>
