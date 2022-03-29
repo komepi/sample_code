@@ -13,3 +13,11 @@
     ASGI互換Webサーバーのエントリポイント
 * mysite/wsgi.py
     プロジェクトをサーブするためのWSGI互換Webサーバーとのエントリーポイント
+
+# admin user
+* Username
+    kyosuke.miyachi
+* Email
+    test_mail@test.com
+* Password
+    uspass123
