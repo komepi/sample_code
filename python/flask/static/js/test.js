@@ -76,3 +76,68 @@ $("#cookie_dict").click(function(){
     console.log("after cookie")
     console.log(document.cookie)
 })
+
+$("#jsonify_code0").click(function(){
+    $.ajax({
+        url:"/jsonify_code/0",
+        method:"GET",
+        success:function(result, status, xhr){
+            console.log(result)
+            console.log(status)
+            console.log(xhr.status)
+        }
+    })
+})
+$("#jsonify_code1").click(function(){
+    $.ajax({
+        url:"/jsonify_code/1",
+        method:"GET",
+        success:function(result, status, xhr){
+            console.log(result)
+            console.log(status)
+            console.log(xhr.status)
+        }
+    })
+})
+
+$("#post_zero").click(function(){
+    $.ajax({
+        url:"/post_zero",
+        method:"POST",
+        contentType:"application/json",
+        dataType:"json",
+        data: JSON.stringify({}),
+        success:function(result){
+            console.log("success")
+        }
+    })
+})
+
+$("#raise_exception").click(function(){
+    $.ajax({
+        url:"/raise_exception",
+        method:"GET",
+        success:function(result){
+            console.log(result)
+        }
+    })
+})
+
+$("#return_code").click(function(){
+    const code = document.getElementById("code").value
+
+    var url = "/return_code/"+code
+    $.ajax({
+        url:url,
+        method:"GET",
+        success:function(data,status){
+            console.log("in success")
+            console.log(data.msg)
+        },
+        error: function(jqXHE, status){
+            console.log("in error")
+            console.log(status)
+            console.log(jqXHE)
+        }
+    })
+})

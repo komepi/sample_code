@@ -1,9 +1,13 @@
-
+import sys
 def main():
     try:
-        raise Exception({"error_id":1})
+        # raise ValueError({"error_id":1})
+        raise ValueError("test error")
     except Exception as ex:
-        print(ex.args[0])
+        print(ex)
+        print(ex.args)
+        print(sys.exc_info()[0])
+        print(type(sys.exc_info()))
     print("after error")
 
 
