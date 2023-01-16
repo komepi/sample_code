@@ -1,5 +1,5 @@
 from flask import Blueprint, make_response
-from logger import log_info
+from .logger import log_info
 
 bp1 = Blueprint('test',
                 __name__,

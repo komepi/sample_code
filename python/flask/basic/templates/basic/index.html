@@ -4,6 +4,7 @@
         
     </head>
     <body>
+        {% include "login/login_page.html" %}
         <p>This is simple test page.</p>
         <ul>
             <li><input id = "bp_rule" type="button" value="blueprintでadd_ruleテスト"/></li>
@@ -17,10 +18,10 @@
             <li><input id = "jsonify_code1" type="button" value="code=1"/></li>
             <li><input id = "post_zero" type="button" value="post_zero"/></li>
             <li><input id = "raise_exception" type="button" value="raise_exception"/></li>
-            <li><a href="other_page" button>other page</a></li>
-            <li><a href="test_abort" button>test_abort</a></li>
+            <li><a href="{{url_for('basic.other_page')}}" button>other page</a></li>
+            <li><a href="{{url_for('basic.test_abort')}}" button>test_abort</a></li>
             <li><input type="text" id="code"/><input id = "return_code" type="button" value="codeを返す"/></li>
-
+            <li><input id = "paths" type="button" value="paths"/></li>
         </ul>
         <script src="{{url_for('static',filename='js/test.js')}}"></script>
     </body>

@@ -1,5 +1,5 @@
 from flask import Blueprint, make_response, request, jsonify
-from logger import log_info
+from .logger import log_info
 import json
 
 cbp = Blueprint('cookie',

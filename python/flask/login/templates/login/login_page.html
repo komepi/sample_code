@@ -1,0 +1,7 @@
+
+{% if current_user.is_authenticated() %}
+<p>now_user is {% current_user.user_id %}</p>
+<a href="{{ url_for('auth.logout') }}">Sign Out</a>
+{% else %}
+<a href="{{ url_for('auth.login') }}">Sign In</a>
+{% endif %}

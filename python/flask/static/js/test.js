@@ -26,7 +26,7 @@ const test_data = {
 
 $("#json").click(function(){
     $.ajax({
-        url:"/json",
+        url:"/basic/json",
         method:"POST",
         contentType:"application/json",
         dataType:"json",
@@ -43,14 +43,14 @@ $("#json").click(function(){
 
 $("#request_data").click(function(){
     $.ajax({
-        url:"/request_data",
+        url:"/basic/request_data",
         method:"GET"
     })
 })
 
 $("#get_value").click(function(){
     const value=document.getElementById("value").value
-    var url = "/get_value/"+value
+    var url = "/basic/get_value/"+value
     $.ajax({
         url:url,
         method:"GET"
@@ -79,7 +79,7 @@ $("#cookie_dict").click(function(){
 
 $("#jsonify_code0").click(function(){
     $.ajax({
-        url:"/jsonify_code/0",
+        url:"/basic/jsonify_code/0",
         method:"GET",
         success:function(result, status, xhr){
             console.log(result)
@@ -90,7 +90,7 @@ $("#jsonify_code0").click(function(){
 })
 $("#jsonify_code1").click(function(){
     $.ajax({
-        url:"/jsonify_code/1",
+        url:"/basic/jsonify_code/1",
         method:"GET",
         success:function(result, status, xhr){
             console.log(result)
@@ -102,11 +102,11 @@ $("#jsonify_code1").click(function(){
 
 $("#post_zero").click(function(){
     $.ajax({
-        url:"/post_zero",
-        method:"POST",
-        contentType:"application/json",
-        dataType:"json",
-        data: JSON.stringify({}),
+        url:"/basic/post_zero",
+        method:"GET",
+        //contentType:"application/json",
+        //dataType:"json",
+        //data: JSON.stringify({}),
         success:function(result){
             console.log("success")
         }
@@ -115,7 +115,7 @@ $("#post_zero").click(function(){
 
 $("#raise_exception").click(function(){
     $.ajax({
-        url:"/raise_exception",
+        url:"/basic/raise_exception",
         method:"GET",
         success:function(result){
             console.log(result)
@@ -126,7 +126,7 @@ $("#raise_exception").click(function(){
 $("#return_code").click(function(){
     const code = document.getElementById("code").value
 
-    var url = "/return_code/"+code
+    var url = "/basic/return_code/"+code
     $.ajax({
         url:url,
         method:"GET",
@@ -138,6 +138,16 @@ $("#return_code").click(function(){
             console.log("in error")
             console.log(status)
             console.log(jqXHE)
+        }
+    })
+})
+
+$("#paths").click(function(){
+    $.ajax({
+        url:"/basic/paths?x=123&y=test_arg",
+        method:"GET",
+        success:function(result){
+            console.log("success")
         }
     })
 })
