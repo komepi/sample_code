@@ -1,0 +1,367 @@
+[2023-04-21 12:37:41,390: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-04-21 12:37:41,415: INFO/MainProcess] mingle: searching for neighbors
+[2023-04-21 12:37:42,450: INFO/MainProcess] mingle: all alone
+[2023-04-21 12:37:42,463: INFO/MainProcess] celery@7a67c1218d2d ready.
+[2023-04-21 12:37:46,061: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-04-21 12:38:13,847: INFO/MainProcess] Received task: tasks.run[89cbcb9e-3612-454f-a2ef-7652c4334977]  
+[2023-04-21 12:38:23,863: WARNING/ForkPoolWorker-1] 処理　おわた
+[2023-04-21 12:38:23,870: INFO/ForkPoolWorker-1] Task tasks.run[89cbcb9e-3612-454f-a2ef-7652c4334977] succeeded in 10.019721427001059s: 'おわったよ'
+[2023-04-21 12:38:23,874: INFO/MainProcess] Received task: tasks.calc[927d7081-5ea6-492e-879a-7290095e6a5e]  
+[2023-04-21 12:38:23,877: INFO/ForkPoolWorker-1] Task tasks.calc[927d7081-5ea6-492e-879a-7290095e6a5e] succeeded in 0.0012216320028528571s: 300
+[2023-04-21 12:39:00,346: INFO/MainProcess] Received task: tasks.run[da30f274-ae7a-41c4-8b0c-f81841718f95]  
+[2023-04-21 12:39:10,358: WARNING/ForkPoolWorker-1] 処理　おわた
+[2023-04-21 12:39:10,359: INFO/ForkPoolWorker-1] Task tasks.run[da30f274-ae7a-41c4-8b0c-f81841718f95] succeeded in 10.010748429995147s: 'おわったよ'
+[2023-04-21 12:40:49,933: INFO/MainProcess] Received task: tasks.run[b05aca55-23ef-44da-8226-210f77de2e09]  
+[2023-04-21 12:40:59,950: WARNING/ForkPoolWorker-1] 処理　おわた
+[2023-04-21 12:40:59,951: INFO/ForkPoolWorker-1] Task tasks.run[b05aca55-23ef-44da-8226-210f77de2e09] succeeded in 10.015915657000733s: 'おわったよ'
+[2023-04-21 12:41:07,207: INFO/MainProcess] Received task: tasks.run[7de83df5-a887-4918-b5aa-5dfa22adad74]  
+[2023-04-21 12:41:17,218: WARNING/ForkPoolWorker-1] 処理　おわた
+[2023-04-21 12:41:17,219: INFO/ForkPoolWorker-1] Task tasks.run[7de83df5-a887-4918-b5aa-5dfa22adad74] succeeded in 10.010220967997157s: 'おわったよ'
+[2023-04-21 12:42:03,371: INFO/MainProcess] Received task: tasks.run[4467501c-bda4-4918-9d81-7807d164df2c]  
+[2023-04-21 12:42:03,385: INFO/MainProcess] Tasks flagged as revoked: 4467501c-bda4-4918-9d81-7807d164df2c
+[2023-04-21 12:42:13,387: WARNING/ForkPoolWorker-1] 処理　おわた
+[2023-04-21 12:42:13,389: INFO/ForkPoolWorker-1] Task tasks.run[4467501c-bda4-4918-9d81-7807d164df2c] succeeded in 10.016114238002046s: 'おわったよ'
+[2023-04-21 12:42:13,392: INFO/MainProcess] Received task: tasks.calc[baff9f2c-fdf0-48e6-9b9f-6022e45263e4]  
+[2023-04-21 12:42:13,394: INFO/ForkPoolWorker-1] Task tasks.calc[baff9f2c-fdf0-48e6-9b9f-6022e45263e4] succeeded in 0.0009257089986931533s: 300
+[2023-04-21 12:42:24,997: INFO/MainProcess] Received task: tasks.run[3d74672c-696d-4ad5-bf95-69edb4dbb6cf]  
+[2023-04-21 12:42:25,012: INFO/MainProcess] Terminating 3d74672c-696d-4ad5-bf95-69edb4dbb6cf (Signals.SIGTERM)
+[2023-04-21 12:42:25,033: ERROR/MainProcess] Task handler raised error: Terminated(15,)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 1725, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15
+[2023-04-21 12:42:25,091: INFO/MainProcess] Received task: tasks.calc[36d156ee-2c2c-4533-968f-14d17968ee5e]  
+[2023-04-21 12:42:25,132: INFO/ForkPoolWorker-2] Task tasks.calc[36d156ee-2c2c-4533-968f-14d17968ee5e] succeeded in 0.023527390992967412s: 300
+[2023-04-21 12:42:47,051: INFO/MainProcess] Received task: tasks.run[03958aa8-3abd-42e6-b724-0660b073f575]  
+[2023-04-21 12:42:57,063: WARNING/ForkPoolWorker-2] 処理　おわた
+[2023-04-21 12:42:57,064: INFO/ForkPoolWorker-2] Task tasks.run[03958aa8-3abd-42e6-b724-0660b073f575] succeeded in 10.010669867995603s: 'おわったよ'
+[2023-04-21 12:42:57,068: INFO/MainProcess] Received task: tasks.calc[3001811e-af30-4575-90a6-77f01096fe7e]  
+[2023-04-21 12:42:57,071: INFO/ForkPoolWorker-2] Task tasks.calc[3001811e-af30-4575-90a6-77f01096fe7e] succeeded in 0.0013838209997629747s: 300
+[2023-04-21 12:43:11,954: INFO/MainProcess] Received task: tasks.run[b09a0d02-81e5-4467-9912-20692aa75f92]  
+[2023-04-21 12:43:21,966: WARNING/ForkPoolWorker-2] 処理　おわた
+[2023-04-21 12:43:21,966: INFO/ForkPoolWorker-2] Task tasks.run[b09a0d02-81e5-4467-9912-20692aa75f92] succeeded in 10.010913060003077s: 'おわったよ'
+[2023-04-21 12:43:21,970: INFO/MainProcess] Received task: tasks.calc[7286715e-85b7-4d93-b682-71cf9c20435e]  
+[2023-04-21 12:43:21,975: INFO/ForkPoolWorker-2] Task tasks.calc[7286715e-85b7-4d93-b682-71cf9c20435e] succeeded in 0.002446671001962386s: 300
+[2023-04-21 12:43:25,528: INFO/MainProcess] Received task: tasks.run[2ef6863f-3583-46ff-a631-cca8b3701411]  
+[2023-04-21 12:43:35,541: WARNING/ForkPoolWorker-2] 処理　おわた
+[2023-04-21 12:43:35,542: INFO/ForkPoolWorker-2] Task tasks.run[2ef6863f-3583-46ff-a631-cca8b3701411] succeeded in 10.011657876006211s: 'おわったよ'
+[2023-04-21 12:43:35,547: INFO/MainProcess] Received task: tasks.calc[2f295453-337d-4e19-8594-6a43fd8e8167]  
+[2023-04-21 12:43:35,551: INFO/ForkPoolWorker-2] Task tasks.calc[2f295453-337d-4e19-8594-6a43fd8e8167] succeeded in 0.001526601001387462s: 300
+[2023-04-21 12:43:58,900: INFO/MainProcess] Received task: tasks.run[5bac3922-43ac-4772-be55-260740a70543]  
+[2023-04-21 12:43:58,917: INFO/MainProcess] Terminating 5bac3922-43ac-4772-be55-260740a70543 (Signals.SIGTERM)
+[2023-04-21 12:43:58,934: ERROR/MainProcess] Task handler raised error: Terminated(15,)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 1725, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15
+[2023-04-21 12:43:59,007: INFO/MainProcess] Received task: tasks.calc[6802190e-0bed-4bf2-9571-79544a122c35]  
+[2023-04-21 12:43:59,026: INFO/ForkPoolWorker-3] Task tasks.calc[6802190e-0bed-4bf2-9571-79544a122c35] succeeded in 0.012383157001750078s: 300
+
+
+
+
+
+
+
+[2023-04-21 12:44:15,262: INFO/MainProcess] Received task: tasks.run[97f606c9-233f-4f9a-a509-c5ec6142b327]  
+[2023-04-21 12:44:15,283: INFO/MainProcess] Terminating 97f606c9-233f-4f9a-a509-c5ec6142b327 (Signals.SIGTERM)
+[2023-04-21 12:44:15,299: ERROR/MainProcess] Task handler raised error: Terminated(15,)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 1725, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15
+[2023-04-21 12:44:15,367: INFO/MainProcess] Received task: tasks.calc[b0a39235-28d8-4503-997d-475f378a214c]  
+[2023-04-21 12:44:15,389: INFO/ForkPoolWorker-4] Task tasks.calc[b0a39235-28d8-4503-997d-475f378a214c] succeeded in 0.01604531300108647s: 300
+[2023-04-21 12:44:47,808: INFO/MainProcess] Received task: tasks.run[06193580-7ab3-4b22-a47a-7f5e30411195]  
+[2023-04-21 12:44:47,823: INFO/MainProcess] Terminating 06193580-7ab3-4b22-a47a-7f5e30411195 (Signals.SIGTERM)
+[2023-04-21 12:44:47,840: ERROR/MainProcess] Task handler raised error: Terminated(15,)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 1725, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15
+[2023-04-21 12:44:47,924: INFO/MainProcess] Received task: tasks.calc[2a76fe61-3da4-4eb1-9618-0ee470a84b12]  
+[2023-04-21 12:44:47,985: INFO/ForkPoolWorker-5] Task tasks.calc[2a76fe61-3da4-4eb1-9618-0ee470a84b12] succeeded in 0.032605046006210614s: 300
+[2023-04-21 12:45:01,747: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 185, in _read_from_socket
+    raise socket.error(SERVER_CLOSED_CONNECTION_ERROR)
+OSError: Connection closed by server.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 317, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python3.6/site-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 593, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/loops.py", line 91, in asynloop
+    next(loop)
+  File "/usr/local/lib/python3.6/site-packages/kombu/asynchronous/hub.py", line 364, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 1083, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 354, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 734, in _brpop_read
+    **options)
+  File "/usr/local/lib/python3.6/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 637, in read_response
+    response = self._parser.read_response()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 290, in read_response
+    response = self._buffer.readline()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 224, in readline
+    self._read_from_socket()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 199, in _read_from_socket
+    (e.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: ('Connection closed by server.',)
+[2023-04-21 12:45:01,784: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error 111 connecting to redis:6379. Connection refused..
+Trying again in 2.00 seconds...
+
+[2023-04-21 12:45:03,790: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-04-21 12:45:03,801: INFO/MainProcess] mingle: searching for neighbors
+[2023-04-21 12:45:04,807: INFO/MainProcess] mingle: all alone
+[2023-04-21 12:45:15,864: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-04-21 12:45:15,880: INFO/MainProcess] mingle: searching for neighbors
+[2023-04-21 12:45:16,912: INFO/MainProcess] mingle: all alone
+[2023-04-21 12:45:16,928: INFO/MainProcess] celery@7a67c1218d2d ready.
+[2023-04-21 12:45:19,123: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-04-21 12:45:42,453: INFO/MainProcess] Received task: tasks.run[2e11714f-917b-4e7d-8485-bb8ba53fd453]  
+[2023-04-21 12:45:42,455: WARNING/ForkPoolWorker-1] 処理　はじまた
+[2023-04-21 12:45:42,473: INFO/MainProcess] Terminating 2e11714f-917b-4e7d-8485-bb8ba53fd453 (Signals.SIGTERM)
+[2023-04-21 12:45:42,495: ERROR/MainProcess] Task handler raised error: Terminated(15,)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 1725, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15
+[2023-04-21 12:45:42,566: INFO/MainProcess] Received task: tasks.calc[5ae5dc20-9b52-4d89-99c6-9325490dcc94]  
+[2023-04-21 12:45:42,632: INFO/ForkPoolWorker-2] Task tasks.calc[5ae5dc20-9b52-4d89-99c6-9325490dcc94] succeeded in 0.021763380005722865s: 300
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[2023-04-21 12:45:55,320: INFO/MainProcess] Received task: tasks.run[a8d5b933-f598-465a-8f65-fa1a3c29e2a3]  
+[2023-04-21 12:45:55,322: WARNING/ForkPoolWorker-2] 処理　はじまた
+[2023-04-21 12:45:55,336: INFO/MainProcess] Terminating a8d5b933-f598-465a-8f65-fa1a3c29e2a3 (Signals.SIGTERM)
+[2023-04-21 12:45:55,352: ERROR/MainProcess] Task handler raised error: Terminated(15,)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 1725, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15
+[2023-04-21 12:45:55,470: INFO/MainProcess] Received task: tasks.calc[5e6050ea-cffc-49cd-814d-f27733f9e663]  
+[2023-04-21 12:45:55,487: INFO/ForkPoolWorker-3] Task tasks.calc[5e6050ea-cffc-49cd-814d-f27733f9e663] succeeded in 0.009615980001399294s: 300
+[2023-04-21 12:52:23,749: INFO/MainProcess] Received task: tasks.run[97a8bbf9-d1bd-4589-b001-34669dcaef2d]  
+[2023-04-21 12:52:23,756: INFO/MainProcess] Terminating 97a8bbf9-d1bd-4589-b001-34669dcaef2d (Signals.SIGTERM)
+[2023-04-21 12:52:23,759: WARNING/ForkPoolWorker-3] 処理　はじまた
+[2023-04-21 12:52:23,782: ERROR/MainProcess] Task handler raised error: Terminated(15,)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 1725, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15
+[2023-04-21 12:52:23,912: INFO/MainProcess] Received task: tasks.calc[a0a7d556-51dc-4499-90c0-b791f06669de]  
+[2023-04-21 12:52:23,927: INFO/ForkPoolWorker-4] Task tasks.calc[a0a7d556-51dc-4499-90c0-b791f06669de] succeeded in 0.008587087999330834s: 300
+[2023-04-21 12:53:04,608: INFO/MainProcess] Received task: tasks.run[c389b8d8-fbe0-479a-8d4b-c3ef2337a830]  
+[2023-04-21 12:53:04,610: WARNING/ForkPoolWorker-4] 処理　はじまた
+[2023-04-21 12:53:04,624: INFO/MainProcess] Terminating c389b8d8-fbe0-479a-8d4b-c3ef2337a830 (Signals.SIGTERM)
+[2023-04-21 12:53:04,639: ERROR/MainProcess] Task handler raised error: Terminated(15,)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 1725, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15
+[2023-04-21 12:53:04,767: INFO/MainProcess] Received task: tasks.calc[05486606-cc7b-44ee-8512-16a5c33b511b]  
+[2023-04-21 12:53:04,787: INFO/ForkPoolWorker-5] Task tasks.calc[05486606-cc7b-44ee-8512-16a5c33b511b] succeeded in 0.01220964399544755s: 300
+[2023-04-21 12:53:17,216: INFO/MainProcess] Received task: tasks.run[3b4c62c9-5f25-4e76-9eec-af744e0a2c3f]  
+[2023-04-21 12:53:17,218: WARNING/ForkPoolWorker-5] 処理　はじまた
+[2023-04-21 12:53:27,234: WARNING/ForkPoolWorker-5] 処理　おわた
+[2023-04-21 12:53:27,235: INFO/ForkPoolWorker-5] Task tasks.run[3b4c62c9-5f25-4e76-9eec-af744e0a2c3f] succeeded in 10.01612245599972s: 'おわったよ'
+[2023-04-21 12:53:27,239: INFO/MainProcess] Received task: tasks.calc[e726f7b1-5399-4087-8125-6803a2e0d64f]  
+[2023-04-21 12:53:27,242: INFO/ForkPoolWorker-5] Task tasks.calc[e726f7b1-5399-4087-8125-6803a2e0d64f] succeeded in 0.0011079670002800412s: 300
+[2023-04-21 13:54:18,129: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-04-21 13:54:18,139: INFO/MainProcess] mingle: searching for neighbors
+[2023-04-21 13:54:19,157: INFO/MainProcess] mingle: all alone
+[2023-04-21 13:54:19,170: INFO/MainProcess] celery@3e9644e3be69 ready.
+[2023-04-21 13:54:22,888: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-04-21 13:55:31,369: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 185, in _read_from_socket
+    raise socket.error(SERVER_CLOSED_CONNECTION_ERROR)
+OSError: Connection closed by server.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 317, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python3.6/site-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 593, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/loops.py", line 91, in asynloop
+    next(loop)
+  File "/usr/local/lib/python3.6/site-packages/kombu/asynchronous/hub.py", line 364, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 1083, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 354, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 734, in _brpop_read
+    **options)
+  File "/usr/local/lib/python3.6/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 637, in read_response
+    response = self._parser.read_response()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 290, in read_response
+    response = self._buffer.readline()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 224, in readline
+    self._read_from_socket()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 199, in _read_from_socket
+    (e.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: ('Connection closed by server.',)
+[2023-04-21 13:55:31,404: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error 111 connecting to redis:6379. Connection refused..
+Trying again in 2.00 seconds...
+
+[2023-04-21 13:55:33,412: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-04-21 13:55:33,422: INFO/MainProcess] mingle: searching for neighbors
+[2023-04-21 13:55:34,427: INFO/MainProcess] mingle: all alone
+[2023-04-21 13:55:45,831: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-04-21 13:55:45,841: INFO/MainProcess] mingle: searching for neighbors
+[2023-04-21 13:55:46,862: INFO/MainProcess] mingle: all alone
+[2023-04-21 13:55:46,877: INFO/MainProcess] celery@3e9644e3be69 ready.
+[2023-04-21 13:55:49,273: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-04-21 13:55:55,334: INFO/MainProcess] Received task: tasks.run[87714ea6-14f9-4f53-a3ba-a865cb458ba9]  
+[2023-04-21 13:55:55,337: WARNING/ForkPoolWorker-1] 処理　はじまた
+[2023-04-21 13:56:05,352: WARNING/ForkPoolWorker-1] 処理　おわた
+[2023-04-21 13:56:05,355: INFO/ForkPoolWorker-1] Task tasks.run[87714ea6-14f9-4f53-a3ba-a865cb458ba9] succeeded in 10.018245828003273s: 'おわったよ'
+[2023-04-21 13:56:05,359: INFO/MainProcess] Tasks flagged as revoked: 87714ea6-14f9-4f53-a3ba-a865cb458ba9
+[2023-04-21 13:56:05,361: INFO/MainProcess] Received task: tasks.calc[e94e523a-9770-46a5-89b8-4c2788fcecf3]  
+[2023-04-21 13:56:05,397: INFO/ForkPoolWorker-1] Task tasks.calc[e94e523a-9770-46a5-89b8-4c2788fcecf3] succeeded in 0.03311150300578447s: 300
+[2023-04-21 13:56:35,000: INFO/MainProcess] Received task: tasks.run[52ff79f5-010f-4e33-b687-a33c67d02b0e]  
+[2023-04-21 13:56:35,003: WARNING/ForkPoolWorker-1] 処理　はじまた
+[2023-04-21 13:56:35,017: INFO/MainProcess] Tasks flagged as revoked: 52ff79f5-010f-4e33-b687-a33c67d02b0e
+[2023-04-21 13:56:35,018: INFO/MainProcess] Terminating 52ff79f5-010f-4e33-b687-a33c67d02b0e (Signals.SIGTERM)
+[2023-04-21 13:56:35,050: ERROR/MainProcess] Task handler raised error: Terminated(15,)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 1725, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15
+[2023-04-21 13:56:35,165: INFO/MainProcess] Received task: tasks.calc[e6da1415-90de-4c0f-bca8-dbea0b1e1559]  
+[2023-04-21 13:56:35,189: INFO/ForkPoolWorker-2] Task tasks.calc[e6da1415-90de-4c0f-bca8-dbea0b1e1559] succeeded in 0.017731842999637593s: 300
+[2023-04-21 13:56:55,328: INFO/MainProcess] Received task: tasks.run[9a44c4db-cdc8-4b12-9670-045515ea1e52]  
+[2023-04-21 13:56:55,330: WARNING/ForkPoolWorker-2] 処理　はじまた
+[2023-04-21 13:56:55,345: INFO/MainProcess] Tasks flagged as revoked: 9a44c4db-cdc8-4b12-9670-045515ea1e52
+[2023-04-21 13:57:05,341: WARNING/ForkPoolWorker-2] 処理　おわた
+[2023-04-21 13:57:05,342: INFO/ForkPoolWorker-2] Task tasks.run[9a44c4db-cdc8-4b12-9670-045515ea1e52] succeeded in 10.011342297002557s: 'おわったよ'
+[2023-04-21 13:57:05,345: INFO/MainProcess] Received task: tasks.calc[ce69e432-bc13-4c97-beb4-b49e5782106e]  
+[2023-04-21 13:57:05,347: INFO/ForkPoolWorker-2] Task tasks.calc[ce69e432-bc13-4c97-beb4-b49e5782106e] succeeded in 0.000570345000596717s: 300
+[2023-04-21 21:41:22,336: INFO/MainProcess] Received task: tasks.run[475e412b-dfcb-46a6-bd6a-ead265e970fe]  
+[2023-04-21 21:41:22,484: INFO/MainProcess] Tasks flagged as revoked: 475e412b-dfcb-46a6-bd6a-ead265e970fe
+[2023-04-21 21:41:22,794: WARNING/ForkPoolWorker-2] 処理　はじまた
+[2023-04-21 21:41:32,860: WARNING/ForkPoolWorker-2] 処理　おわた
+[2023-04-21 21:41:32,963: INFO/MainProcess] Received task: tasks.calc[d0111cfa-43a0-4b52-a17f-063adab8fefe]  
+[2023-04-21 21:41:32,996: INFO/ForkPoolWorker-2] Task tasks.run[475e412b-dfcb-46a6-bd6a-ead265e970fe] succeeded in 10.262650538003072s: 'おわったよ'
+[2023-04-21 21:41:33,040: INFO/ForkPoolWorker-2] Task tasks.calc[d0111cfa-43a0-4b52-a17f-063adab8fefe] succeeded in 0.018425092988763936s: 300
+
+
+
+
+
+
+[2023-04-21 21:42:20,880: INFO/MainProcess] Received task: tasks.run[ef94b1e1-a0d7-4111-a3e4-f9a4a07a5a7d]  
+[2023-04-21 21:42:20,882: WARNING/ForkPoolWorker-2] 処理　はじまた
+[2023-04-21 21:42:30,892: WARNING/ForkPoolWorker-2] 処理　おわた
+[2023-04-21 21:42:30,893: INFO/ForkPoolWorker-2] Task tasks.run[ef94b1e1-a0d7-4111-a3e4-f9a4a07a5a7d] succeeded in 10.010864928000956s: 'おわったよ'
+[2023-04-21 21:42:30,897: INFO/MainProcess] Received task: tasks.calc[bb6ca5d8-a5da-4528-ae2b-c9fc2dd5545a]  
+[2023-04-21 21:42:30,901: INFO/ForkPoolWorker-2] Task tasks.calc[bb6ca5d8-a5da-4528-ae2b-c9fc2dd5545a] succeeded in 0.0003709699958562851s: 300
+[2023-04-21 23:36:06,684: INFO/MainProcess] Received task: tasks.run[72500cc0-0230-4679-b35b-bb18759730a9]  
+[2023-04-21 23:36:06,688: WARNING/ForkPoolWorker-2] 処理　はじまた
+[2023-04-21 23:36:16,707: WARNING/ForkPoolWorker-2] 処理　おわた
+[2023-04-21 23:36:16,709: INFO/ForkPoolWorker-2] Task tasks.run[72500cc0-0230-4679-b35b-bb18759730a9] succeeded in 10.020914129010634s: 'おわったよ'
+[2023-04-21 23:36:16,713: INFO/MainProcess] Received task: tasks.calc[37b576bd-d511-4d6f-9e4c-ea137dfad803]  
+[2023-04-21 23:36:16,717: INFO/ForkPoolWorker-2] Task tasks.calc[37b576bd-d511-4d6f-9e4c-ea137dfad803] succeeded in 0.0007056460017338395s: 300
+
+
+
+
+
+
+
+
+[2023-04-21 23:36:40,058: INFO/MainProcess] Received task: tasks.run[2459b911-b6e1-4338-b52e-603463c519c9]  
+[2023-04-21 23:36:40,060: WARNING/ForkPoolWorker-2] 処理　はじまた
+[2023-04-21 23:36:50,072: WARNING/ForkPoolWorker-2] 処理　おわた
+[2023-04-21 23:36:50,074: INFO/ForkPoolWorker-2] Task tasks.run[2459b911-b6e1-4338-b52e-603463c519c9] succeeded in 10.013943116005976s: 'おわったよ'
+[2023-04-21 23:36:50,079: INFO/MainProcess] Received task: tasks.calc[960c0b08-99ec-4ebd-a6c5-785fcebb65f0]  
+[2023-04-21 23:36:50,095: INFO/ForkPoolWorker-2] Task tasks.calc[960c0b08-99ec-4ebd-a6c5-785fcebb65f0] succeeded in 0.00173563499993179s: 300
+[2023-04-21 23:53:23,346: INFO/MainProcess] Received task: tasks.run[ddcc7fc3-58c8-4be6-b67f-a777a011617d]  
+[2023-04-21 23:53:23,350: WARNING/ForkPoolWorker-2] 処理　はじまた
+[2023-04-21 23:53:33,377: WARNING/ForkPoolWorker-2] 処理　おわた
+[2023-04-21 23:53:33,380: INFO/ForkPoolWorker-2] Task tasks.run[ddcc7fc3-58c8-4be6-b67f-a777a011617d] succeeded in 10.029488084997865s: 'おわったよ'
+[2023-04-21 23:56:37,310: INFO/MainProcess] Received task: tasks.run[cdbee124-7e8e-4692-87a7-c65fcd9845b9]  
+[2023-04-21 23:56:37,320: WARNING/ForkPoolWorker-2] 処理　はじまた
+[2023-04-21 23:56:47,321: WARNING/ForkPoolWorker-2] 処理　おわた
+[2023-04-21 23:56:47,322: INFO/ForkPoolWorker-2] Task tasks.run[cdbee124-7e8e-4692-87a7-c65fcd9845b9] succeeded in 10.002239052002551s: 'おわったよ'
+[2023-04-21 23:57:01,236: INFO/MainProcess] Received task: tasks.run[4c43630e-47cf-4d14-975a-1a7484fc5082]  
+[2023-04-21 23:57:01,245: WARNING/ForkPoolWorker-2] 処理　はじまた
+[2023-04-21 23:57:01,257: INFO/MainProcess] Terminating 4c43630e-47cf-4d14-975a-1a7484fc5082 (Signals.SIGTERM)
+[2023-04-21 23:57:02,629: ERROR/MainProcess] Task handler raised error: Terminated(15,)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 1725, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15
+[2023-04-21 23:57:35,642: INFO/MainProcess] Received task: tasks.run[26f09281-ae12-4886-bb24-6262c955b08f]  
+[2023-04-21 23:57:35,656: WARNING/ForkPoolWorker-3] 処理　はじまた
+[2023-04-21 23:57:35,661: INFO/MainProcess] Terminating 26f09281-ae12-4886-bb24-6262c955b08f (Signals.SIGTERM)
+[2023-04-21 23:57:35,700: ERROR/MainProcess] Task handler raised error: Terminated(15,)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 1725, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15
+[2023-04-21 23:58:06,777: INFO/MainProcess] Received task: tasks.run[3f832b68-9cd0-431a-8ee6-49c4d9a17f5b]  
+[2023-04-21 23:58:06,779: WARNING/ForkPoolWorker-4] 処理　はじまた
+[2023-04-21 23:58:06,796: INFO/MainProcess] Terminating 3f832b68-9cd0-431a-8ee6-49c4d9a17f5b (Signals.SIGTERM)
+[2023-04-21 23:58:06,819: ERROR/MainProcess] Task handler raised error: Terminated(15,)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 1725, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15
+
+
+
+
+[2023-04-21 23:58:36,539: INFO/MainProcess] Received task: tasks.run[f473a7d0-8f5f-4fc7-8b7d-3a4e81bdbf36]  
+[2023-04-21 23:58:36,541: WARNING/ForkPoolWorker-5] 処理　はじまた
+[2023-04-21 23:58:36,557: INFO/MainProcess] Terminating f473a7d0-8f5f-4fc7-8b7d-3a4e81bdbf36 (Signals.SIGTERM)
+[2023-04-21 23:58:36,576: ERROR/MainProcess] Task handler raised error: Terminated(15,)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 1725, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15
+[2023-04-21 23:58:54,374: INFO/MainProcess] Received task: tasks.run[d53c523d-9b6e-40ed-bcab-bf650759f693]  
+[2023-04-21 23:58:54,376: WARNING/ForkPoolWorker-6] 処理　はじまた
+[2023-04-21 23:58:54,394: INFO/MainProcess] Terminating d53c523d-9b6e-40ed-bcab-bf650759f693 (Signals.SIGTERM)
+[2023-04-21 23:58:54,422: ERROR/MainProcess] Task handler raised error: Terminated(15,)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 1725, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15
+[2023-04-21 23:59:16,325: INFO/MainProcess] Received task: tasks.run[fe686acf-e46b-4683-bb2f-ebcf876f42aa]  
+[2023-04-21 23:59:16,327: WARNING/ForkPoolWorker-7] 処理　はじまた
+[2023-04-21 23:59:16,381: INFO/MainProcess] Terminating fe686acf-e46b-4683-bb2f-ebcf876f42aa (Signals.SIGTERM)
+[2023-04-21 23:59:16,412: ERROR/MainProcess] Task handler raised error: Terminated(15,)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 1725, in _set_terminated
+    raise Terminated(-(signum or 0))
+billiard.exceptions.Terminated: 15

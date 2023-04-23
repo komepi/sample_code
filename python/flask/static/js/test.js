@@ -50,7 +50,9 @@ $("#request_data").click(function(){
 
 $("#get_value").click(function(){
     const value=document.getElementById("value").value
+    console.log(value)
     var url = "/basic/get_value/"+value
+    console.log(url)
     $.ajax({
         url:url,
         method:"GET"

@@ -19,7 +19,7 @@ def get_request_data():
     
     return make_response()
 
-@basic_blueprint.route("/get_value/<value>", methods=["GET"])
+@basic_blueprint.route("/get_value/<string:value>", methods=["GET"])
 def get_from_url(value):
     log_info("value is "+str(value))
     return make_response()
