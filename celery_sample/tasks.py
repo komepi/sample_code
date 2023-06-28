@@ -3,6 +3,7 @@ import os
 import time
 import celery
 import celeryconfig
+from celery import shared_task
 
 CELERY_BROKER = os.environ.get('CELERY_BROKER')
 CELERY_BACKEND = os.environ.get('CELERY_BACKEND')
@@ -24,3 +25,21 @@ def run():
 @app.task
 def calc(a, b):
    return a+b
+
+
+@shared_task
+def task1():
+   print("start task1")
+   task2.apply_async()
+   time.sleep(60)
+
+@shared_task
+def task2():
+   print("start task2")
+   time.sleep(60)
+
+
+@shared_task
+def task3():
+   print("start task3")
+   time.sleep(60)

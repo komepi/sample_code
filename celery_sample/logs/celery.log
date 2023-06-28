@@ -365,3 +365,1486 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 1725, in _set_terminated
     raise Terminated(-(signum or 0))
 billiard.exceptions.Terminated: 15
+[2023-05-12 05:45:43,080: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-05-12 05:45:43,090: INFO/MainProcess] mingle: searching for neighbors
+[2023-05-12 05:45:44,106: INFO/MainProcess] mingle: all alone
+[2023-05-12 05:45:44,116: INFO/MainProcess] celery@3e9644e3be69 ready.
+[2023-06-16 02:23:09,510: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-06-16 02:23:09,520: INFO/MainProcess] mingle: searching for neighbors
+[2023-06-16 02:23:10,537: INFO/MainProcess] mingle: all alone
+[2023-06-16 02:23:10,547: INFO/MainProcess] celery@3e9644e3be69 ready.
+[2023-06-16 02:23:14,338: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-06-16 02:25:23,638: INFO/MainProcess] Received task: tasks.task1[52c5f11b-8074-483e-a8c3-48147168edcf]  
+[2023-06-16 02:25:23,642: INFO/MainProcess] Received task: tasks.task1[5b9bac91-d489-4591-adcb-aab30db7c66f]  
+[2023-06-16 02:25:23,643: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:25:23,650: INFO/MainProcess] Received task: tasks.task1[7c51d96c-2be8-4654-9fe4-de64ef4e9725]  
+[2023-06-16 02:25:23,653: INFO/ForkPoolWorker-1] Task tasks.task1[52c5f11b-8074-483e-a8c3-48147168edcf] succeeded in 0.010317748999909782s: 1
+[2023-06-16 02:25:23,658: INFO/MainProcess] Received task: tasks.task1[d3c8f576-1340-469d-ace4-8ec1978eb45c]  
+[2023-06-16 02:25:23,664: INFO/MainProcess] Received task: tasks.task1[796bb8b1-7ab3-4255-bfe9-5f6aa5abbc48]  
+[2023-06-16 02:25:23,665: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:25:23,667: INFO/ForkPoolWorker-1] Task tasks.task1[5b9bac91-d489-4591-adcb-aab30db7c66f] succeeded in 0.002158090999955675s: 1
+[2023-06-16 02:25:23,669: INFO/MainProcess] Received task: tasks.task1[f1ae52a1-3745-4dd7-8832-cf200eedee7d]  
+[2023-06-16 02:25:23,670: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:25:23,677: INFO/ForkPoolWorker-1] Task tasks.task1[7c51d96c-2be8-4654-9fe4-de64ef4e9725] succeeded in 0.006997036000029766s: 1
+[2023-06-16 02:25:23,679: INFO/MainProcess] Received task: tasks.task1[e317f7a2-d59c-460a-a7f3-1bfe140a8df2]  
+[2023-06-16 02:25:23,680: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:25:23,685: INFO/ForkPoolWorker-1] Task tasks.task1[d3c8f576-1340-469d-ace4-8ec1978eb45c] succeeded in 0.005170431000010467s: 1
+[2023-06-16 02:25:23,689: INFO/MainProcess] Received task: tasks.task1[664870ff-33be-4434-b985-14d109d57d87]  
+[2023-06-16 02:25:23,689: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:25:23,697: INFO/ForkPoolWorker-1] Task tasks.task1[796bb8b1-7ab3-4255-bfe9-5f6aa5abbc48] succeeded in 0.007358292000049005s: 1
+[2023-06-16 02:25:23,700: INFO/MainProcess] Received task: tasks.task1[99f6b09e-7131-4872-8bf7-40d6f722dfe3]  
+[2023-06-16 02:25:23,700: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:25:23,702: INFO/ForkPoolWorker-1] Task tasks.task1[f1ae52a1-3745-4dd7-8832-cf200eedee7d] succeeded in 0.00209917500001211s: 1
+[2023-06-16 02:25:23,707: INFO/MainProcess] Received task: tasks.task1[f9e548d2-2965-49d2-a5b6-15b0b13ff6df]  
+[2023-06-16 02:25:23,708: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:25:23,717: INFO/ForkPoolWorker-1] Task tasks.task1[e317f7a2-d59c-460a-a7f3-1bfe140a8df2] succeeded in 0.009175670999979957s: 1
+[2023-06-16 02:25:23,719: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:25:23,721: INFO/ForkPoolWorker-1] Task tasks.task1[664870ff-33be-4434-b985-14d109d57d87] succeeded in 0.0020235350000348262s: 1
+[2023-06-16 02:25:23,723: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:25:23,725: INFO/ForkPoolWorker-1] Task tasks.task1[99f6b09e-7131-4872-8bf7-40d6f722dfe3] succeeded in 0.0018924249999372478s: 1
+[2023-06-16 02:25:23,732: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:25:23,735: ERROR/ForkPoolWorker-1] Chord callback for '09bdf867-6e42-47ae-af9b-b8acefc43e8b' raised: TypeError('task2() takes 0 positional arguments but 1 was given',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in on_chord_part_return
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 179, in delay
+    return self.apply_async(partial_args, partial_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 218, in apply_async
+    return _apply(args, kwargs, **options)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/task.py", line 513, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: task2() takes 0 positional arguments but 1 was given
+[2023-06-16 02:25:23,746: INFO/ForkPoolWorker-1] Task tasks.task1[f9e548d2-2965-49d2-a5b6-15b0b13ff6df] succeeded in 0.014100397999982306s: 1
+[2023-06-16 02:25:37,060: INFO/MainProcess] Received task: tasks.task1[1d9be4a8-bc20-46a0-8b20-9c584c0edf0c]  
+[2023-06-16 02:25:37,062: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:25:37,064: INFO/ForkPoolWorker-1] Task tasks.task1[1d9be4a8-bc20-46a0-8b20-9c584c0edf0c] succeeded in 0.0014981100000568404s: 1
+[2023-06-16 02:25:37,066: INFO/MainProcess] Received task: tasks.task1[225ba910-fa89-44b7-b7e3-0413193ccef2]  
+[2023-06-16 02:25:37,068: INFO/MainProcess] Received task: tasks.task1[42f323ac-a0dc-45d2-90d7-590f1f9633f2]  
+[2023-06-16 02:25:37,069: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:25:37,073: INFO/ForkPoolWorker-1] Task tasks.task1[225ba910-fa89-44b7-b7e3-0413193ccef2] succeeded in 0.004778001999966364s: 1
+[2023-06-16 02:25:37,074: INFO/MainProcess] Received task: tasks.task1[c01b89c6-5058-4bed-98cf-7427e78070af]  
+[2023-06-16 02:25:37,078: INFO/MainProcess] Received task: tasks.task1[18f417ea-f6a1-4d01-8102-997f87f1d4c6]  
+[2023-06-16 02:25:37,082: INFO/MainProcess] Received task: tasks.task1[5ab659c2-7cfb-4c73-a013-75f63585d263]  
+[2023-06-16 02:25:37,082: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:25:37,089: INFO/ForkPoolWorker-1] Task tasks.task1[42f323ac-a0dc-45d2-90d7-590f1f9633f2] succeeded in 0.006910248999929536s: 1
+[2023-06-16 02:25:37,091: INFO/MainProcess] Received task: tasks.task1[b8a713e6-24ec-45a5-b700-05b0da17bc35]  
+[2023-06-16 02:25:37,092: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:25:37,100: INFO/ForkPoolWorker-1] Task tasks.task1[c01b89c6-5058-4bed-98cf-7427e78070af] succeeded in 0.008467553000059524s: 1
+[2023-06-16 02:25:37,102: INFO/MainProcess] Received task: tasks.task1[faa489ff-da25-40af-a6b9-3a230fad8e0e]  
+[2023-06-16 02:25:37,103: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:25:37,105: INFO/ForkPoolWorker-1] Task tasks.task1[18f417ea-f6a1-4d01-8102-997f87f1d4c6] succeeded in 0.0015937440000470815s: 1
+[2023-06-16 02:25:37,107: INFO/MainProcess] Received task: tasks.task1[a8200ed2-d26e-420c-9392-e42c87068078]  
+[2023-06-16 02:25:37,108: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:25:37,110: INFO/ForkPoolWorker-1] Task tasks.task1[5ab659c2-7cfb-4c73-a013-75f63585d263] succeeded in 0.0018037199999980658s: 1
+[2023-06-16 02:25:37,111: INFO/MainProcess] Received task: tasks.task1[b793369d-3eae-4160-a0ef-fb8fe1fb2ae1]  
+[2023-06-16 02:25:37,112: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:25:37,121: INFO/ForkPoolWorker-1] Task tasks.task1[b8a713e6-24ec-45a5-b700-05b0da17bc35] succeeded in 0.009578724999983024s: 1
+[2023-06-16 02:25:37,124: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:25:37,126: INFO/ForkPoolWorker-1] Task tasks.task1[faa489ff-da25-40af-a6b9-3a230fad8e0e] succeeded in 0.001687642999968375s: 1
+[2023-06-16 02:25:37,127: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:25:37,134: INFO/ForkPoolWorker-1] Task tasks.task1[a8200ed2-d26e-420c-9392-e42c87068078] succeeded in 0.007246656999996048s: 1
+[2023-06-16 02:25:37,136: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:25:37,138: ERROR/ForkPoolWorker-1] Chord callback for '0942c15a-4610-4464-91a6-d8f65615470a' raised: TypeError('task2() takes 0 positional arguments but 1 was given',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in on_chord_part_return
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 179, in delay
+    return self.apply_async(partial_args, partial_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 218, in apply_async
+    return _apply(args, kwargs, **options)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/task.py", line 513, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: task2() takes 0 positional arguments but 1 was given
+[2023-06-16 02:25:37,139: INFO/ForkPoolWorker-1] Task tasks.task1[b793369d-3eae-4160-a0ef-fb8fe1fb2ae1] succeeded in 0.0032781830000203627s: 1
+[2023-06-16 02:26:25,341: INFO/MainProcess] Received task: tasks.task1[0aaa8d4a-5691-4061-a999-983fbf649780]  
+[2023-06-16 02:26:25,345: INFO/MainProcess] Received task: tasks.task1[39f7e2a1-c56e-4321-a2a3-77042dd7738f]  
+[2023-06-16 02:26:25,346: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:26:25,349: INFO/ForkPoolWorker-1] Task tasks.task1[0aaa8d4a-5691-4061-a999-983fbf649780] succeeded in 0.0025777829999924506s: 1
+[2023-06-16 02:26:25,349: INFO/MainProcess] Received task: tasks.task1[c00266d0-43bf-427a-be2d-4fe998a6ed57]  
+[2023-06-16 02:26:25,353: INFO/MainProcess] Received task: tasks.task1[9be2a881-1597-4eaf-859f-d43331c64650]  
+[2023-06-16 02:26:25,355: INFO/MainProcess] Received task: tasks.task1[ac2e618f-efc8-449c-8d45-6b5021f78c42]  
+[2023-06-16 02:26:25,356: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:26:25,370: INFO/ForkPoolWorker-1] Task tasks.task1[39f7e2a1-c56e-4321-a2a3-77042dd7738f] succeeded in 0.014065053999956945s: 1
+[2023-06-16 02:26:25,381: INFO/MainProcess] Received task: tasks.task1[3da4e647-3e82-4137-8c1a-d7816a1b5bc1]  
+[2023-06-16 02:26:25,382: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:26:25,392: INFO/ForkPoolWorker-1] Task tasks.task1[c00266d0-43bf-427a-be2d-4fe998a6ed57] succeeded in 0.010403276000033657s: 1
+[2023-06-16 02:26:25,401: INFO/MainProcess] Received task: tasks.task1[ae2c7d66-7c65-4e95-8823-7259f5b94c97]  
+[2023-06-16 02:26:25,402: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:26:25,403: INFO/ForkPoolWorker-1] Task tasks.task1[9be2a881-1597-4eaf-859f-d43331c64650] succeeded in 0.00181201299994882s: 1
+[2023-06-16 02:26:25,407: INFO/MainProcess] Received task: tasks.task1[6003c9b4-5ea2-442f-adaf-6812af9f2716]  
+[2023-06-16 02:26:25,408: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:26:25,411: INFO/ForkPoolWorker-1] Task tasks.task1[ac2e618f-efc8-449c-8d45-6b5021f78c42] succeeded in 0.003356080000003203s: 1
+[2023-06-16 02:26:25,413: INFO/MainProcess] Received task: tasks.task1[42ded91a-b863-4b39-a392-3310b3530ddb]  
+[2023-06-16 02:26:25,414: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:26:25,416: INFO/ForkPoolWorker-1] Task tasks.task1[3da4e647-3e82-4137-8c1a-d7816a1b5bc1] succeeded in 0.0022228410000479926s: 1
+[2023-06-16 02:26:25,418: INFO/MainProcess] Received task: tasks.task1[4fffc6df-06e6-4fb0-85b6-ff98664317c8]  
+[2023-06-16 02:26:25,418: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:26:25,421: INFO/ForkPoolWorker-1] Task tasks.task1[ae2c7d66-7c65-4e95-8823-7259f5b94c97] succeeded in 0.0023925860000417742s: 1
+[2023-06-16 02:26:25,425: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:26:25,427: INFO/ForkPoolWorker-1] Task tasks.task1[6003c9b4-5ea2-442f-adaf-6812af9f2716] succeeded in 0.0025948510000262104s: 1
+[2023-06-16 02:26:25,429: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:26:25,430: INFO/ForkPoolWorker-1] Task tasks.task1[42ded91a-b863-4b39-a392-3310b3530ddb] succeeded in 0.0018526339999880292s: 1
+[2023-06-16 02:26:25,432: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:26:25,436: ERROR/ForkPoolWorker-1] Chord callback for '9dbac68a-9155-4c38-a253-90b86651d995' raised: TypeError('task2() takes 0 positional arguments but 1 was given',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in on_chord_part_return
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 179, in delay
+    return self.apply_async(partial_args, partial_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 218, in apply_async
+    return _apply(args, kwargs, **options)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/task.py", line 513, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: task2() takes 0 positional arguments but 1 was given
+[2023-06-16 02:26:25,438: INFO/ForkPoolWorker-1] Task tasks.task1[4fffc6df-06e6-4fb0-85b6-ff98664317c8] succeeded in 0.0058992140000100335s: 1
+[2023-06-16 02:26:34,235: INFO/MainProcess] Received task: tasks.task1[8dfb6a20-930e-49fc-a2fd-eaebe3bfb363]  
+[2023-06-16 02:26:34,240: INFO/MainProcess] Received task: tasks.task1[53016871-b9c3-4c8e-8b65-4b882726507d]  
+[2023-06-16 02:26:34,241: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:26:34,243: INFO/ForkPoolWorker-1] Task tasks.task1[8dfb6a20-930e-49fc-a2fd-eaebe3bfb363] succeeded in 0.0024347319999833417s: 1
+[2023-06-16 02:26:34,244: INFO/MainProcess] Received task: tasks.task1[7a653bbb-819a-4a9c-9f82-33cd773389f5]  
+[2023-06-16 02:26:34,248: INFO/MainProcess] Received task: tasks.task1[2f6b2e77-0d76-4263-b5b2-0a3b08ba68d6]  
+[2023-06-16 02:26:34,250: INFO/MainProcess] Received task: tasks.task1[76947e83-6dae-4f91-ba51-593115811d41]  
+[2023-06-16 02:26:34,250: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:26:34,251: INFO/ForkPoolWorker-1] Task tasks.task1[53016871-b9c3-4c8e-8b65-4b882726507d] succeeded in 0.001159409000024425s: 1
+[2023-06-16 02:26:34,254: INFO/MainProcess] Received task: tasks.task1[39ce47c5-d90e-448a-8afc-222c510b22c7]  
+[2023-06-16 02:26:34,254: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:26:34,258: INFO/ForkPoolWorker-1] Task tasks.task1[7a653bbb-819a-4a9c-9f82-33cd773389f5] succeeded in 0.0032872660000293763s: 1
+[2023-06-16 02:26:34,260: INFO/MainProcess] Received task: tasks.task1[5841ea8e-80a9-41b5-a307-adb8c471e41f]  
+[2023-06-16 02:26:34,261: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:26:34,263: INFO/ForkPoolWorker-1] Task tasks.task1[2f6b2e77-0d76-4263-b5b2-0a3b08ba68d6] succeeded in 0.0020904530000507293s: 1
+[2023-06-16 02:26:34,266: INFO/MainProcess] Received task: tasks.task1[ba051bbe-41d2-4cb4-874c-8735fccf6963]  
+[2023-06-16 02:26:34,266: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:26:34,268: INFO/ForkPoolWorker-1] Task tasks.task1[76947e83-6dae-4f91-ba51-593115811d41] succeeded in 0.001561323000032644s: 1
+[2023-06-16 02:26:34,285: INFO/MainProcess] Received task: tasks.task1[6253b138-1b41-405c-9424-e012149344e8]  
+[2023-06-16 02:26:34,286: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:26:34,288: INFO/ForkPoolWorker-1] Task tasks.task1[39ce47c5-d90e-448a-8afc-222c510b22c7] succeeded in 0.0018058419999533726s: 1
+[2023-06-16 02:26:34,297: INFO/MainProcess] Received task: tasks.task1[3b30c2e7-adec-45c6-a6b7-10580bff9255]  
+[2023-06-16 02:26:34,298: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:26:34,310: INFO/ForkPoolWorker-1] Task tasks.task1[5841ea8e-80a9-41b5-a307-adb8c471e41f] succeeded in 0.012357543000007354s: 1
+[2023-06-16 02:26:34,318: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:26:34,321: INFO/ForkPoolWorker-1] Task tasks.task1[ba051bbe-41d2-4cb4-874c-8735fccf6963] succeeded in 0.00206313000001046s: 1
+[2023-06-16 02:26:34,323: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:26:34,325: INFO/ForkPoolWorker-1] Task tasks.task1[6253b138-1b41-405c-9424-e012149344e8] succeeded in 0.002793209000060415s: 1
+[2023-06-16 02:26:34,327: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:26:34,331: ERROR/ForkPoolWorker-1] Chord callback for '3e84f34f-318b-4c23-af6d-cc649129c7e6' raised: TypeError('task2() takes 0 positional arguments but 1 was given',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in on_chord_part_return
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 179, in delay
+    return self.apply_async(partial_args, partial_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 218, in apply_async
+    return _apply(args, kwargs, **options)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/task.py", line 513, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: task2() takes 0 positional arguments but 1 was given
+[2023-06-16 02:26:34,332: INFO/ForkPoolWorker-1] Task tasks.task1[3b30c2e7-adec-45c6-a6b7-10580bff9255] succeeded in 0.005019801999992524s: 1
+[2023-06-16 02:26:38,497: INFO/MainProcess] Received task: tasks.task1[be351430-105e-460b-b730-58f6fc7e0a84]  
+[2023-06-16 02:26:38,500: INFO/MainProcess] Received task: tasks.task1[eec85fc7-4c59-4ae2-9e84-e7031aa0db59]  
+[2023-06-16 02:26:38,500: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:26:38,503: INFO/MainProcess] Received task: tasks.task1[d7090baa-ad13-4ca2-bf01-65fd0da380a9]  
+[2023-06-16 02:26:38,504: INFO/ForkPoolWorker-1] Task tasks.task1[be351430-105e-460b-b730-58f6fc7e0a84] succeeded in 0.003471632000014324s: 1
+[2023-06-16 02:26:38,508: INFO/MainProcess] Received task: tasks.task1[8b416b36-3ac6-45a5-8ada-e91df3fcd182]  
+[2023-06-16 02:26:38,511: INFO/MainProcess] Received task: tasks.task1[f8870044-5442-4f44-a8d4-a678a2312dcb]  
+[2023-06-16 02:26:38,511: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:26:38,513: INFO/ForkPoolWorker-1] Task tasks.task1[eec85fc7-4c59-4ae2-9e84-e7031aa0db59] succeeded in 0.0016917279999688617s: 1
+[2023-06-16 02:26:38,515: INFO/MainProcess] Received task: tasks.task1[72a451a0-ac0f-481b-98fc-67c9be03b0d3]  
+[2023-06-16 02:26:38,515: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:26:38,517: INFO/ForkPoolWorker-1] Task tasks.task1[d7090baa-ad13-4ca2-bf01-65fd0da380a9] succeeded in 0.0013418209999827013s: 1
+[2023-06-16 02:26:38,520: INFO/MainProcess] Received task: tasks.task1[f33a0d58-5747-41f5-a5d4-c3dc9388edf5]  
+[2023-06-16 02:26:38,521: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:26:38,523: INFO/ForkPoolWorker-1] Task tasks.task1[8b416b36-3ac6-45a5-8ada-e91df3fcd182] succeeded in 0.0025129570000217427s: 1
+[2023-06-16 02:26:38,526: INFO/MainProcess] Received task: tasks.task1[8a3bb8e7-9604-4964-9f93-b134234f296a]  
+[2023-06-16 02:26:38,527: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:26:38,530: INFO/ForkPoolWorker-1] Task tasks.task1[f8870044-5442-4f44-a8d4-a678a2312dcb] succeeded in 0.0028787710000415245s: 1
+[2023-06-16 02:26:38,545: INFO/MainProcess] Received task: tasks.task1[cda4003a-928c-4e4e-8637-b2c8a02b849d]  
+[2023-06-16 02:26:38,545: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:26:38,547: INFO/ForkPoolWorker-1] Task tasks.task1[72a451a0-ac0f-481b-98fc-67c9be03b0d3] succeeded in 0.001978911000037442s: 1
+[2023-06-16 02:26:38,549: INFO/MainProcess] Received task: tasks.task1[9bc687fb-c1b2-4463-a288-93bc64796f94]  
+[2023-06-16 02:26:38,550: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:26:38,560: INFO/ForkPoolWorker-1] Task tasks.task1[f33a0d58-5747-41f5-a5d4-c3dc9388edf5] succeeded in 0.009827864000044428s: 1
+[2023-06-16 02:26:38,578: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:26:38,580: INFO/ForkPoolWorker-1] Task tasks.task1[8a3bb8e7-9604-4964-9f93-b134234f296a] succeeded in 0.002252634000001308s: 1
+[2023-06-16 02:26:38,582: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:26:38,584: INFO/ForkPoolWorker-1] Task tasks.task1[cda4003a-928c-4e4e-8637-b2c8a02b849d] succeeded in 0.0018296780000355284s: 1
+[2023-06-16 02:26:38,585: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:26:38,590: ERROR/ForkPoolWorker-1] Chord callback for '5261ada1-348e-4131-b783-f8a786917925' raised: TypeError('task2() takes 0 positional arguments but 1 was given',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in on_chord_part_return
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 179, in delay
+    return self.apply_async(partial_args, partial_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 218, in apply_async
+    return _apply(args, kwargs, **options)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/task.py", line 513, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: task2() takes 0 positional arguments but 1 was given
+[2023-06-16 02:26:38,591: INFO/ForkPoolWorker-1] Task tasks.task1[9bc687fb-c1b2-4463-a288-93bc64796f94] succeeded in 0.006304649999947287s: 1
+[2023-06-16 02:26:57,941: INFO/MainProcess] Received task: tasks.task1[0218f173-42ec-498c-8840-dd789b9ee302]  
+[2023-06-16 02:26:57,944: INFO/MainProcess] Received task: tasks.task1[e8686138-ba59-440e-b772-9c2d9abf65cf]  
+[2023-06-16 02:26:57,944: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:26:57,947: INFO/MainProcess] Received task: tasks.task1[7c8d2687-cd8b-44c2-a4a6-0b91193d92fb]  
+[2023-06-16 02:26:57,947: INFO/ForkPoolWorker-1] Task tasks.task1[0218f173-42ec-498c-8840-dd789b9ee302] succeeded in 0.002919288000043707s: 1
+[2023-06-16 02:26:57,950: INFO/MainProcess] Received task: tasks.task1[6ce1aebf-aa8f-419d-8140-cadb3e0746dc]  
+[2023-06-16 02:26:57,952: INFO/MainProcess] Received task: tasks.task1[4b86a567-0204-4254-a71c-6072ef5dd047]  
+[2023-06-16 02:26:57,953: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:26:57,955: INFO/ForkPoolWorker-1] Task tasks.task1[e8686138-ba59-440e-b772-9c2d9abf65cf] succeeded in 0.002001549000056002s: 1
+[2023-06-16 02:26:57,959: INFO/MainProcess] Received task: tasks.task1[f1e289aa-91e5-4c14-a7cb-1e184e3f78c9]  
+[2023-06-16 02:26:57,959: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:26:57,961: INFO/ForkPoolWorker-1] Task tasks.task1[7c8d2687-cd8b-44c2-a4a6-0b91193d92fb] succeeded in 0.00190095300001758s: 1
+[2023-06-16 02:26:57,963: INFO/MainProcess] Received task: tasks.task1[4697e02f-c68a-48a3-9a87-14821c0c80f0]  
+[2023-06-16 02:26:57,963: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:26:57,965: INFO/ForkPoolWorker-1] Task tasks.task1[6ce1aebf-aa8f-419d-8140-cadb3e0746dc] succeeded in 0.0015244230000917014s: 1
+[2023-06-16 02:26:57,966: INFO/MainProcess] Received task: tasks.task1[be8c5dea-278e-40be-b86e-b428036a07bf]  
+[2023-06-16 02:26:57,967: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:26:57,968: INFO/ForkPoolWorker-1] Task tasks.task1[4b86a567-0204-4254-a71c-6072ef5dd047] succeeded in 0.0015130470000030982s: 1
+[2023-06-16 02:26:57,971: INFO/MainProcess] Received task: tasks.task1[13b29a09-5d83-4a17-bf37-a704a293024b]  
+[2023-06-16 02:26:57,971: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:26:57,974: INFO/ForkPoolWorker-1] Task tasks.task1[f1e289aa-91e5-4c14-a7cb-1e184e3f78c9] succeeded in 0.002496285999995962s: 1
+[2023-06-16 02:26:57,976: INFO/MainProcess] Received task: tasks.task1[90611dc7-8b4e-4492-a8e6-983272bc70ab]  
+[2023-06-16 02:26:57,976: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:26:57,978: INFO/ForkPoolWorker-1] Task tasks.task1[4697e02f-c68a-48a3-9a87-14821c0c80f0] succeeded in 0.0011979380000184392s: 1
+[2023-06-16 02:26:57,979: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:26:57,981: INFO/ForkPoolWorker-1] Task tasks.task1[be8c5dea-278e-40be-b86e-b428036a07bf] succeeded in 0.0014294420000169339s: 1
+[2023-06-16 02:26:57,982: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:26:57,983: INFO/ForkPoolWorker-1] Task tasks.task1[13b29a09-5d83-4a17-bf37-a704a293024b] succeeded in 0.0011005059999433797s: 1
+[2023-06-16 02:26:57,984: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:26:57,987: ERROR/ForkPoolWorker-1] Chord callback for 'd5697837-f23e-43f8-bbf3-3669ad79c645' raised: TypeError('task2() takes 0 positional arguments but 1 was given',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in on_chord_part_return
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 179, in delay
+    return self.apply_async(partial_args, partial_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 218, in apply_async
+    return _apply(args, kwargs, **options)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/task.py", line 513, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: task2() takes 0 positional arguments but 1 was given
+[2023-06-16 02:26:57,988: INFO/ForkPoolWorker-1] Task tasks.task1[90611dc7-8b4e-4492-a8e6-983272bc70ab] succeeded in 0.003432355000086318s: 1
+[2023-06-16 02:27:30,329: INFO/MainProcess] Received task: tasks.task1[a7646198-fa6e-4be0-83ef-1e73d7c8a6c8]  
+[2023-06-16 02:27:30,330: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:27:30,332: INFO/ForkPoolWorker-1] Task tasks.task1[a7646198-fa6e-4be0-83ef-1e73d7c8a6c8] succeeded in 0.0016574410000202988s: 1
+[2023-06-16 02:27:30,334: INFO/MainProcess] Received task: tasks.task1[a9dfa6c5-d075-4441-9690-5f31be3be76d]  
+[2023-06-16 02:27:30,336: INFO/MainProcess] Received task: tasks.task1[37c87152-8c20-4e92-a417-18b8d46ac032]  
+[2023-06-16 02:27:30,336: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:27:30,343: INFO/ForkPoolWorker-1] Task tasks.task1[a9dfa6c5-d075-4441-9690-5f31be3be76d] succeeded in 0.006428322999909142s: 1
+[2023-06-16 02:27:30,343: INFO/MainProcess] Received task: tasks.task1[a8e7a444-7115-46c4-999d-0234dbf56b3e]  
+[2023-06-16 02:27:30,345: INFO/MainProcess] Received task: tasks.task1[e7f41fba-43c5-40c1-84cc-d8e8e950ee64]  
+[2023-06-16 02:27:30,348: INFO/MainProcess] Received task: tasks.task1[6ecfbfe1-9a32-4625-ad23-f80f04d62bcb]  
+[2023-06-16 02:27:30,348: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:27:30,350: INFO/ForkPoolWorker-1] Task tasks.task1[37c87152-8c20-4e92-a417-18b8d46ac032] succeeded in 0.0020159819999889805s: 1
+[2023-06-16 02:27:30,352: INFO/MainProcess] Received task: tasks.task1[4babee83-b448-4b21-b413-cbec72835629]  
+[2023-06-16 02:27:30,354: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:27:30,357: INFO/ForkPoolWorker-1] Task tasks.task1[a8e7a444-7115-46c4-999d-0234dbf56b3e] succeeded in 0.0029650689999698443s: 1
+[2023-06-16 02:27:30,359: INFO/MainProcess] Received task: tasks.task1[0059952e-94a7-4987-84b3-d96bf8898fbe]  
+[2023-06-16 02:27:30,360: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:27:30,361: INFO/ForkPoolWorker-1] Task tasks.task1[e7f41fba-43c5-40c1-84cc-d8e8e950ee64] succeeded in 0.001755718000026718s: 1
+[2023-06-16 02:27:30,363: INFO/MainProcess] Received task: tasks.task1[fa4b3f56-1eed-4e59-b1ca-58edfde5e49d]  
+[2023-06-16 02:27:30,363: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:27:30,365: INFO/ForkPoolWorker-1] Task tasks.task1[6ecfbfe1-9a32-4625-ad23-f80f04d62bcb] succeeded in 0.0018453019999924436s: 1
+[2023-06-16 02:27:30,367: INFO/MainProcess] Received task: tasks.task1[60c9df21-b6b4-49e4-95e5-f40522144359]  
+[2023-06-16 02:27:30,367: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:27:30,369: INFO/ForkPoolWorker-1] Task tasks.task1[4babee83-b448-4b21-b413-cbec72835629] succeeded in 0.001537065999968945s: 1
+[2023-06-16 02:27:30,370: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:27:30,373: INFO/ForkPoolWorker-1] Task tasks.task1[0059952e-94a7-4987-84b3-d96bf8898fbe] succeeded in 0.0029511110000157714s: 1
+[2023-06-16 02:27:30,375: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:27:30,376: INFO/ForkPoolWorker-1] Task tasks.task1[fa4b3f56-1eed-4e59-b1ca-58edfde5e49d] succeeded in 0.0014420940000263727s: 1
+[2023-06-16 02:27:30,378: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:27:30,380: ERROR/ForkPoolWorker-1] Chord callback for 'fa447daa-d771-4445-9863-581e76728c5b' raised: TypeError('task2() takes 0 positional arguments but 1 was given',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in on_chord_part_return
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 179, in delay
+    return self.apply_async(partial_args, partial_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 218, in apply_async
+    return _apply(args, kwargs, **options)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/task.py", line 513, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: task2() takes 0 positional arguments but 1 was given
+[2023-06-16 02:27:30,380: INFO/ForkPoolWorker-1] Task tasks.task1[60c9df21-b6b4-49e4-95e5-f40522144359] succeeded in 0.0027387430000089807s: 1
+[2023-06-16 02:28:52,668: ERROR/MainProcess] Received unregistered task of type 'tasks.run'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you're using relative imports?
+
+Please see
+http://docs.celeryq.org/en/latest/internals/protocol.html
+for more information.
+
+The full contents of the message body was:
+b'[[], {}, {"callbacks": null, "errbacks": null, "chain": null, "chord": null}]' (77b)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 558, in on_task_received
+    strategy = strategies[type_]
+KeyError: 'tasks.run'
+[2023-06-16 02:29:20,155: ERROR/MainProcess] Received unregistered task of type 'tasks.run'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you're using relative imports?
+
+Please see
+http://docs.celeryq.org/en/latest/internals/protocol.html
+for more information.
+
+The full contents of the message body was:
+b'[[], {}, {"callbacks": null, "errbacks": null, "chain": null, "chord": null}]' (77b)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 558, in on_task_received
+    strategy = strategies[type_]
+KeyError: 'tasks.run'
+[2023-06-16 02:30:34,924: INFO/MainProcess] Received task: tasks.task1[98a1fe66-584e-46b1-933d-93a2724fa0b8]  
+[2023-06-16 02:30:34,929: INFO/MainProcess] Received task: tasks.task1[af8cea76-4ecd-4f39-996a-a7b29c500d2c]  
+[2023-06-16 02:30:34,929: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:30:34,932: INFO/MainProcess] Received task: tasks.task1[5bb84720-dc42-417c-aeb4-6221d0d4aecf]  
+[2023-06-16 02:30:34,933: INFO/ForkPoolWorker-1] Task tasks.task1[98a1fe66-584e-46b1-933d-93a2724fa0b8] succeeded in 0.003409575000091536s: 1
+[2023-06-16 02:30:34,936: INFO/MainProcess] Received task: tasks.task1[7a87723f-924c-4227-9c6f-4c0ff1c7c64d]  
+[2023-06-16 02:30:34,939: INFO/MainProcess] Received task: tasks.task1[152c0cd0-e363-4e87-a0e0-310418a87819]  
+[2023-06-16 02:30:34,940: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:30:34,943: INFO/ForkPoolWorker-1] Task tasks.task1[af8cea76-4ecd-4f39-996a-a7b29c500d2c] succeeded in 0.0028253840000616037s: 1
+[2023-06-16 02:30:34,945: INFO/MainProcess] Received task: tasks.task1[b032f594-24dc-4f7c-9eb7-24d958c4c73c]  
+[2023-06-16 02:30:34,945: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:30:34,947: INFO/ForkPoolWorker-1] Task tasks.task1[5bb84720-dc42-417c-aeb4-6221d0d4aecf] succeeded in 0.0016415270000607052s: 1
+[2023-06-16 02:30:34,949: INFO/MainProcess] Received task: tasks.task1[cb19ad9f-60f4-4ef1-a4cf-08bfcdfcc9f0]  
+[2023-06-16 02:30:34,950: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:30:34,951: INFO/ForkPoolWorker-1] Task tasks.task1[7a87723f-924c-4227-9c6f-4c0ff1c7c64d] succeeded in 0.0016956360000222048s: 1
+[2023-06-16 02:30:34,953: INFO/MainProcess] Received task: tasks.task1[f2d67aab-8ce4-464a-b432-dd86fc8fd5d2]  
+[2023-06-16 02:30:34,953: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:30:34,955: INFO/ForkPoolWorker-1] Task tasks.task1[152c0cd0-e363-4e87-a0e0-310418a87819] succeeded in 0.001986134000048878s: 1
+[2023-06-16 02:30:34,959: INFO/MainProcess] Received task: tasks.task1[d7236313-5095-488a-a7c7-07cdac53b9b6]  
+[2023-06-16 02:30:34,960: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:30:34,962: INFO/ForkPoolWorker-1] Task tasks.task1[b032f594-24dc-4f7c-9eb7-24d958c4c73c] succeeded in 0.001666638000074272s: 1
+[2023-06-16 02:30:34,964: INFO/MainProcess] Received task: tasks.task1[226e7f70-5b4f-4779-bce0-6aa1421a1588]  
+[2023-06-16 02:30:34,965: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:30:34,966: INFO/ForkPoolWorker-1] Task tasks.task1[cb19ad9f-60f4-4ef1-a4cf-08bfcdfcc9f0] succeeded in 0.00173690900010115s: 1
+[2023-06-16 02:30:34,968: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:30:34,969: INFO/ForkPoolWorker-1] Task tasks.task1[f2d67aab-8ce4-464a-b432-dd86fc8fd5d2] succeeded in 0.0014582369999516231s: 1
+[2023-06-16 02:30:34,970: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:30:34,973: INFO/ForkPoolWorker-1] Task tasks.task1[d7236313-5095-488a-a7c7-07cdac53b9b6] succeeded in 0.0022852429999602464s: 1
+[2023-06-16 02:30:34,975: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:30:34,977: ERROR/ForkPoolWorker-1] Chord callback for 'ea1960b8-90c4-44dc-a84f-d964666ad9d1' raised: TypeError('task2() takes 0 positional arguments but 1 was given',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in on_chord_part_return
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 179, in delay
+    return self.apply_async(partial_args, partial_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 218, in apply_async
+    return _apply(args, kwargs, **options)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/task.py", line 513, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: task2() takes 0 positional arguments but 1 was given
+[2023-06-16 02:30:34,978: INFO/ForkPoolWorker-1] Task tasks.task1[226e7f70-5b4f-4779-bce0-6aa1421a1588] succeeded in 0.0030256249999638385s: 1
+[2023-06-16 02:30:52,227: INFO/MainProcess] Received task: tasks.task1[18d46b00-6e85-4bf3-9eef-290c9bb19324]  
+[2023-06-16 02:30:52,231: INFO/MainProcess] Received task: tasks.task1[7baec0a7-73ee-4bac-becc-e53acf874578]  
+[2023-06-16 02:30:52,231: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:30:52,234: INFO/MainProcess] Received task: tasks.task1[936cb0de-3559-443d-b297-376070c82a24]  
+[2023-06-16 02:30:52,235: INFO/ForkPoolWorker-1] Task tasks.task1[18d46b00-6e85-4bf3-9eef-290c9bb19324] succeeded in 0.0033468409999386495s: 1
+[2023-06-16 02:30:52,237: INFO/MainProcess] Received task: tasks.task1[3a948dd0-4eff-4d35-8813-2267526e4c4e]  
+[2023-06-16 02:30:52,241: INFO/MainProcess] Received task: tasks.task1[a8fcf9f9-0a1b-4c2e-9fdf-4d16acf8fde5]  
+[2023-06-16 02:30:52,243: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:30:52,246: INFO/ForkPoolWorker-1] Task tasks.task1[7baec0a7-73ee-4bac-becc-e53acf874578] succeeded in 0.0030371990000048754s: 1
+[2023-06-16 02:30:52,247: INFO/MainProcess] Received task: tasks.task1[5f907718-2846-4770-8a9b-04c86b099673]  
+[2023-06-16 02:30:52,248: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:30:52,249: INFO/ForkPoolWorker-1] Task tasks.task1[936cb0de-3559-443d-b297-376070c82a24] succeeded in 0.00147949699999117s: 1
+[2023-06-16 02:30:52,251: INFO/MainProcess] Received task: tasks.task1[55b800ad-c69f-43ca-9fa5-d3ea0098a65b]  
+[2023-06-16 02:30:52,252: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:30:52,253: INFO/ForkPoolWorker-1] Task tasks.task1[3a948dd0-4eff-4d35-8813-2267526e4c4e] succeeded in 0.0012323529999775928s: 1
+[2023-06-16 02:30:52,256: INFO/MainProcess] Received task: tasks.task1[46590400-aa98-4be7-b69a-608a06b99682]  
+[2023-06-16 02:30:52,256: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:30:52,259: INFO/ForkPoolWorker-1] Task tasks.task1[a8fcf9f9-0a1b-4c2e-9fdf-4d16acf8fde5] succeeded in 0.002298616999951264s: 1
+[2023-06-16 02:30:52,262: INFO/MainProcess] Received task: tasks.task1[5cc0daa6-42f3-4477-afae-5c2bfab47eca]  
+[2023-06-16 02:30:52,262: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:30:52,264: INFO/ForkPoolWorker-1] Task tasks.task1[5f907718-2846-4770-8a9b-04c86b099673] succeeded in 0.0019081630000528094s: 1
+[2023-06-16 02:30:52,266: INFO/MainProcess] Received task: tasks.task1[59b23dcd-9733-4ee0-b649-1ff8a6fb00e3]  
+[2023-06-16 02:30:52,266: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:30:52,268: INFO/ForkPoolWorker-1] Task tasks.task1[55b800ad-c69f-43ca-9fa5-d3ea0098a65b] succeeded in 0.0016727639999771782s: 1
+[2023-06-16 02:30:52,269: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:30:52,272: INFO/ForkPoolWorker-1] Task tasks.task1[46590400-aa98-4be7-b69a-608a06b99682] succeeded in 0.002076118999980281s: 1
+[2023-06-16 02:30:52,274: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:30:52,277: INFO/ForkPoolWorker-1] Task tasks.task1[5cc0daa6-42f3-4477-afae-5c2bfab47eca] succeeded in 0.00304354999991574s: 1
+[2023-06-16 02:30:52,278: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:30:52,280: ERROR/ForkPoolWorker-1] Chord callback for 'ba749f8f-b414-41b5-b9ef-875932617e4e' raised: TypeError('task2() takes 0 positional arguments but 1 was given',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in on_chord_part_return
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 179, in delay
+    return self.apply_async(partial_args, partial_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 218, in apply_async
+    return _apply(args, kwargs, **options)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/task.py", line 513, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: task2() takes 0 positional arguments but 1 was given
+[2023-06-16 02:30:52,280: INFO/ForkPoolWorker-1] Task tasks.task1[59b23dcd-9733-4ee0-b649-1ff8a6fb00e3] succeeded in 0.0024192809999021847s: 1
+[2023-06-16 02:33:34,499: INFO/MainProcess] Received task: tasks.task1[b175f7e5-3659-4cd4-ac98-0a266043266f]  
+[2023-06-16 02:33:34,502: INFO/MainProcess] Received task: tasks.task1[bf0b7331-6c60-4f3e-8507-683c72682c74]  
+[2023-06-16 02:33:34,502: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:33:34,504: INFO/ForkPoolWorker-1] Task tasks.task1[b175f7e5-3659-4cd4-ac98-0a266043266f] succeeded in 0.0013175400001728121s: 1
+[2023-06-16 02:33:34,505: INFO/MainProcess] Received task: tasks.task1[f890322f-1fa5-42f5-8c1a-a591f1e9482e]  
+[2023-06-16 02:33:34,511: INFO/MainProcess] Received task: tasks.task1[09a4e05b-9881-418f-92d8-4f3eb24ae19f]  
+[2023-06-16 02:33:34,514: INFO/MainProcess] Received task: tasks.task1[6017f8dd-ea1c-485e-a095-8f8826ec3c00]  
+[2023-06-16 02:33:34,515: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:33:34,517: INFO/ForkPoolWorker-1] Task tasks.task1[bf0b7331-6c60-4f3e-8507-683c72682c74] succeeded in 0.002085564000026352s: 1
+[2023-06-16 02:33:34,519: INFO/MainProcess] Received task: tasks.task1[13cb53cd-1393-4925-8ace-a989e31054e3]  
+[2023-06-16 02:33:34,519: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:33:34,522: INFO/ForkPoolWorker-1] Task tasks.task1[f890322f-1fa5-42f5-8c1a-a591f1e9482e] succeeded in 0.0024204019998705917s: 1
+[2023-06-16 02:33:34,523: INFO/MainProcess] Received task: tasks.task1[2584ad5b-e5c9-42a9-958b-c9a7bd5f597d]  
+[2023-06-16 02:33:34,524: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:33:34,526: INFO/ForkPoolWorker-1] Task tasks.task1[09a4e05b-9881-418f-92d8-4f3eb24ae19f] succeeded in 0.0021760339998309064s: 1
+[2023-06-16 02:33:34,529: INFO/MainProcess] Received task: tasks.task1[5780b8c8-bed2-4b9c-ac7c-2582ab4269c8]  
+[2023-06-16 02:33:34,529: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:33:34,531: INFO/ForkPoolWorker-1] Task tasks.task1[6017f8dd-ea1c-485e-a095-8f8826ec3c00] succeeded in 0.0015714209998805018s: 1
+[2023-06-16 02:33:34,533: INFO/MainProcess] Received task: tasks.task1[757b525e-6070-4c09-9eb5-a0203e2f9120]  
+[2023-06-16 02:33:34,534: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:33:34,535: INFO/ForkPoolWorker-1] Task tasks.task1[13cb53cd-1393-4925-8ace-a989e31054e3] succeeded in 0.0011584530000163795s: 1
+[2023-06-16 02:33:34,537: INFO/MainProcess] Received task: tasks.task1[41264ca4-04ee-48d8-b80d-bcc82dee332b]  
+[2023-06-16 02:33:34,538: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:33:34,540: INFO/ForkPoolWorker-1] Task tasks.task1[2584ad5b-e5c9-42a9-958b-c9a7bd5f597d] succeeded in 0.002303771000015331s: 1
+[2023-06-16 02:33:34,542: INFO/MainProcess] Received task: tasks.task1[8028c37c-4997-4a7f-8fe3-8da62d61c72b]  
+[2023-06-16 02:33:34,543: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:33:34,545: INFO/ForkPoolWorker-1] Task tasks.task1[5780b8c8-bed2-4b9c-ac7c-2582ab4269c8] succeeded in 0.0017701479998777359s: 1
+[2023-06-16 02:33:34,546: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:33:34,548: INFO/ForkPoolWorker-1] Task tasks.task1[757b525e-6070-4c09-9eb5-a0203e2f9120] succeeded in 0.0017964660000870936s: 1
+[2023-06-16 02:33:34,549: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:33:34,550: INFO/ForkPoolWorker-1] Task tasks.task1[41264ca4-04ee-48d8-b80d-bcc82dee332b] succeeded in 0.0012632460000077117s: 1
+[2023-06-16 02:33:34,551: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:33:34,553: ERROR/ForkPoolWorker-1] Chord callback for '331557cd-b465-453a-bdb0-b21b9dd36ada' raised: TypeError('task2() takes 0 positional arguments but 1 was given',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in on_chord_part_return
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 179, in delay
+    return self.apply_async(partial_args, partial_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 218, in apply_async
+    return _apply(args, kwargs, **options)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/task.py", line 513, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: task2() takes 0 positional arguments but 1 was given
+[2023-06-16 02:33:34,554: INFO/ForkPoolWorker-1] Task tasks.task1[8028c37c-4997-4a7f-8fe3-8da62d61c72b] succeeded in 0.0025282869999045943s: 1
+[2023-06-16 02:35:27,948: INFO/MainProcess] Received task: tasks.task1[9d35a956-dc78-44f2-a470-c3a7a29d369e]  
+[2023-06-16 02:35:27,951: INFO/MainProcess] Received task: tasks.task1[7647af60-99f4-45a9-a25e-c5299373f23b]  
+[2023-06-16 02:35:27,952: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:35:27,953: INFO/ForkPoolWorker-1] Task tasks.task1[9d35a956-dc78-44f2-a470-c3a7a29d369e] succeeded in 0.0012998429999697692s: 1
+[2023-06-16 02:35:27,954: INFO/MainProcess] Received task: tasks.task1[86f065d3-a7ac-4342-824e-5492d6b358b7]  
+[2023-06-16 02:35:27,958: INFO/MainProcess] Received task: tasks.task1[bb32f055-59e0-4a75-9822-efaaff4302ce]  
+[2023-06-16 02:35:27,961: INFO/MainProcess] Received task: tasks.task1[e6ed5936-0565-4343-8848-1c986acf987d]  
+[2023-06-16 02:35:27,962: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:35:27,964: INFO/ForkPoolWorker-1] Task tasks.task1[7647af60-99f4-45a9-a25e-c5299373f23b] succeeded in 0.0025264169998990837s: 1
+[2023-06-16 02:35:27,966: INFO/MainProcess] Received task: tasks.task1[58b0a0ca-4eb4-418b-9b15-b72d1064270f]  
+[2023-06-16 02:35:27,967: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:35:27,969: INFO/ForkPoolWorker-1] Task tasks.task1[86f065d3-a7ac-4342-824e-5492d6b358b7] succeeded in 0.001656295999964641s: 1
+[2023-06-16 02:35:27,971: INFO/MainProcess] Received task: tasks.task1[0887c190-ab4b-4d4c-bb6f-ce7b25a0ae9e]  
+[2023-06-16 02:35:27,971: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:35:27,973: INFO/ForkPoolWorker-1] Task tasks.task1[bb32f055-59e0-4a75-9822-efaaff4302ce] succeeded in 0.0019249130000389414s: 1
+[2023-06-16 02:35:27,976: INFO/MainProcess] Received task: tasks.task1[fccb6ece-5e86-40a3-b59c-749772168e44]  
+[2023-06-16 02:35:27,977: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:35:27,979: INFO/ForkPoolWorker-1] Task tasks.task1[e6ed5936-0565-4343-8848-1c986acf987d] succeeded in 0.001523623000139196s: 1
+[2023-06-16 02:35:27,981: INFO/MainProcess] Received task: tasks.task1[f5e71659-7a5b-4671-bc45-9ff5da3efb96]  
+[2023-06-16 02:35:27,981: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:35:27,983: INFO/ForkPoolWorker-1] Task tasks.task1[58b0a0ca-4eb4-418b-9b15-b72d1064270f] succeeded in 0.001918927000133408s: 1
+[2023-06-16 02:35:27,985: INFO/MainProcess] Received task: tasks.task1[07823ba2-7afb-485b-bade-7421ccc0ed51]  
+[2023-06-16 02:35:27,986: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:35:27,988: INFO/ForkPoolWorker-1] Task tasks.task1[0887c190-ab4b-4d4c-bb6f-ce7b25a0ae9e] succeeded in 0.0018315259999326372s: 1
+[2023-06-16 02:35:27,989: INFO/MainProcess] Received task: tasks.task1[a15501c0-d597-4f25-9067-038819dfa129]  
+[2023-06-16 02:35:27,990: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:35:27,992: INFO/ForkPoolWorker-1] Task tasks.task1[fccb6ece-5e86-40a3-b59c-749772168e44] succeeded in 0.002409635000049093s: 1
+[2023-06-16 02:35:27,994: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:35:27,996: INFO/ForkPoolWorker-1] Task tasks.task1[f5e71659-7a5b-4671-bc45-9ff5da3efb96] succeeded in 0.0014012720000664558s: 1
+[2023-06-16 02:35:27,997: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:35:27,999: INFO/ForkPoolWorker-1] Task tasks.task1[07823ba2-7afb-485b-bade-7421ccc0ed51] succeeded in 0.0016118720000122266s: 1
+[2023-06-16 02:35:28,000: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:35:28,002: ERROR/ForkPoolWorker-1] Chord callback for '17e743e1-224e-4ca4-a64a-3501e00d6b9a' raised: TypeError('task2() takes 0 positional arguments but 1 was given',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in on_chord_part_return
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 179, in delay
+    return self.apply_async(partial_args, partial_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 218, in apply_async
+    return _apply(args, kwargs, **options)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/task.py", line 513, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: task2() takes 0 positional arguments but 1 was given
+[2023-06-16 02:35:28,003: INFO/ForkPoolWorker-1] Task tasks.task1[a15501c0-d597-4f25-9067-038819dfa129] succeeded in 0.002719496000054278s: 1
+[2023-06-16 02:43:14,285: INFO/MainProcess] Received task: tasks.task1[c05c3ecc-9559-41d8-9455-a3778efe7302]  
+[2023-06-16 02:43:14,288: INFO/MainProcess] Received task: tasks.task1[6102b633-f55b-43b3-bf21-bff719b9d496]  
+[2023-06-16 02:43:14,289: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:43:14,290: INFO/ForkPoolWorker-1] Task tasks.task1[c05c3ecc-9559-41d8-9455-a3778efe7302] succeeded in 0.0013655509999352944s: 1
+[2023-06-16 02:43:14,291: INFO/MainProcess] Received task: tasks.task1[85ffa3ce-d695-47df-b203-17f0f017cb6d]  
+[2023-06-16 02:43:14,295: INFO/MainProcess] Received task: tasks.task1[31cf9657-bbaf-411a-8f9c-aa11fefc2a90]  
+[2023-06-16 02:43:14,298: INFO/MainProcess] Received task: tasks.task1[5ad62e72-7d45-458a-8ad2-d5a1e150e2a6]  
+[2023-06-16 02:43:14,299: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:43:14,301: INFO/ForkPoolWorker-1] Task tasks.task1[6102b633-f55b-43b3-bf21-bff719b9d496] succeeded in 0.002452813999980208s: 1
+[2023-06-16 02:43:14,303: INFO/MainProcess] Received task: tasks.task1[ed3a6b6a-4913-4ff3-8c5f-0ff67e51651b]  
+[2023-06-16 02:43:14,304: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:43:14,305: INFO/ForkPoolWorker-1] Task tasks.task1[85ffa3ce-d695-47df-b203-17f0f017cb6d] succeeded in 0.0015721019999546115s: 1
+[2023-06-16 02:43:14,307: INFO/MainProcess] Received task: tasks.task1[5a166388-0a9e-4e1c-94fe-826f946a0d30]  
+[2023-06-16 02:43:14,307: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:43:14,308: INFO/ForkPoolWorker-1] Task tasks.task1[31cf9657-bbaf-411a-8f9c-aa11fefc2a90] succeeded in 0.0011966750000738102s: 1
+[2023-06-16 02:43:14,311: INFO/MainProcess] Received task: tasks.task1[7ac16e5f-a463-4e6c-b89b-c71b1ed05f54]  
+[2023-06-16 02:43:14,312: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:43:14,315: INFO/ForkPoolWorker-1] Task tasks.task1[5ad62e72-7d45-458a-8ad2-d5a1e150e2a6] succeeded in 0.0028384329998516478s: 1
+[2023-06-16 02:43:14,317: INFO/MainProcess] Received task: tasks.task1[2df662df-86cc-4d99-8950-bd0e776d1fe8]  
+[2023-06-16 02:43:14,318: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:43:14,319: INFO/ForkPoolWorker-1] Task tasks.task1[ed3a6b6a-4913-4ff3-8c5f-0ff67e51651b] succeeded in 0.0012269890000879968s: 1
+[2023-06-16 02:43:14,321: INFO/MainProcess] Received task: tasks.task1[3def260e-458f-4b9e-9f4f-d870e784d6aa]  
+[2023-06-16 02:43:14,322: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:43:14,323: INFO/ForkPoolWorker-1] Task tasks.task1[5a166388-0a9e-4e1c-94fe-826f946a0d30] succeeded in 0.0016827719998673274s: 1
+[2023-06-16 02:43:14,325: INFO/MainProcess] Received task: tasks.task1[8f8f934d-ec61-4db6-9f80-06877f10f733]  
+[2023-06-16 02:43:14,326: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:43:14,329: INFO/ForkPoolWorker-1] Task tasks.task1[7ac16e5f-a463-4e6c-b89b-c71b1ed05f54] succeeded in 0.002848374999985026s: 1
+[2023-06-16 02:43:14,331: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:43:14,332: INFO/ForkPoolWorker-1] Task tasks.task1[2df662df-86cc-4d99-8950-bd0e776d1fe8] succeeded in 0.001700181000160228s: 1
+[2023-06-16 02:43:14,334: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:43:14,336: INFO/ForkPoolWorker-1] Task tasks.task1[3def260e-458f-4b9e-9f4f-d870e784d6aa] succeeded in 0.0022431249999499414s: 1
+[2023-06-16 02:43:14,337: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:43:14,340: ERROR/ForkPoolWorker-1] Chord callback for 'b7ef26bd-ffba-4ba8-b43f-35fd0e22b989' raised: TypeError("task2() got an unexpected keyword argument 'data'",)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in on_chord_part_return
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 179, in delay
+    return self.apply_async(partial_args, partial_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 218, in apply_async
+    return _apply(args, kwargs, **options)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/task.py", line 513, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: task2() got an unexpected keyword argument 'data'
+[2023-06-16 02:43:14,341: INFO/ForkPoolWorker-1] Task tasks.task1[8f8f934d-ec61-4db6-9f80-06877f10f733] succeeded in 0.00355082299984133s: 1
+[2023-06-16 02:46:23,279: INFO/MainProcess] Received task: tasks.task1[6590beea-bf6d-49dc-9013-e6d2ad069145]  
+[2023-06-16 02:46:23,282: INFO/MainProcess] Received task: tasks.task1[ce666c92-1cd0-4722-a180-a42f327a76c4]  
+[2023-06-16 02:46:23,283: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:46:23,286: INFO/MainProcess] Received task: tasks.task1[1657376b-c18e-4c19-a1ca-e832a8091608]  
+[2023-06-16 02:46:23,287: INFO/ForkPoolWorker-1] Task tasks.task1[6590beea-bf6d-49dc-9013-e6d2ad069145] succeeded in 0.003856218999999328s: 1
+[2023-06-16 02:46:23,290: INFO/MainProcess] Received task: tasks.task1[05266797-0bc5-48fb-9e77-85ff4689ba59]  
+[2023-06-16 02:46:23,292: INFO/MainProcess] Received task: tasks.task1[1c2d2f41-57f2-43da-bcef-e30e69e5a4d5]  
+[2023-06-16 02:46:23,293: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:46:23,295: INFO/ForkPoolWorker-1] Task tasks.task1[ce666c92-1cd0-4722-a180-a42f327a76c4] succeeded in 0.0021076119999179355s: 1
+[2023-06-16 02:46:23,297: INFO/MainProcess] Received task: tasks.task1[22d9bdae-3715-42a1-b1ae-6cd668f46090]  
+[2023-06-16 02:46:23,298: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:46:23,300: INFO/ForkPoolWorker-1] Task tasks.task1[1657376b-c18e-4c19-a1ca-e832a8091608] succeeded in 0.0018067920000248705s: 1
+[2023-06-16 02:46:23,302: INFO/MainProcess] Received task: tasks.task1[8c90fc71-4bcc-46cf-92bc-e27132acce43]  
+[2023-06-16 02:46:23,302: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:46:23,303: INFO/ForkPoolWorker-1] Task tasks.task1[05266797-0bc5-48fb-9e77-85ff4689ba59] succeeded in 0.0012347399999725894s: 1
+[2023-06-16 02:46:23,305: INFO/MainProcess] Received task: tasks.task1[a47f3c94-7376-4341-80d7-f8b66ea250cc]  
+[2023-06-16 02:46:23,306: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:46:23,307: INFO/ForkPoolWorker-1] Task tasks.task1[1c2d2f41-57f2-43da-bcef-e30e69e5a4d5] succeeded in 0.001156359999868073s: 1
+[2023-06-16 02:46:23,310: INFO/MainProcess] Received task: tasks.task1[2d10ebed-e6cf-4567-a720-168a4187fe7c]  
+[2023-06-16 02:46:23,310: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:46:23,312: INFO/ForkPoolWorker-1] Task tasks.task1[22d9bdae-3715-42a1-b1ae-6cd668f46090] succeeded in 0.0017025790000388952s: 1
+[2023-06-16 02:46:23,314: INFO/MainProcess] Received task: tasks.task1[4e115806-1bf6-44b3-93a9-747802c02444]  
+[2023-06-16 02:46:23,315: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:46:23,317: INFO/ForkPoolWorker-1] Task tasks.task1[8c90fc71-4bcc-46cf-92bc-e27132acce43] succeeded in 0.0022100310000041645s: 1
+[2023-06-16 02:46:23,319: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:46:23,320: INFO/ForkPoolWorker-1] Task tasks.task1[a47f3c94-7376-4341-80d7-f8b66ea250cc] succeeded in 0.0013804860000163899s: 1
+[2023-06-16 02:46:23,321: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:46:23,322: INFO/ForkPoolWorker-1] Task tasks.task1[2d10ebed-e6cf-4567-a720-168a4187fe7c] succeeded in 0.001448113000151352s: 1
+[2023-06-16 02:46:23,324: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:46:23,326: ERROR/ForkPoolWorker-1] Chord callback for '61fff11f-951d-4811-bb39-45d8f4d66678' raised: TypeError("task2() got an unexpected keyword argument 'data'",)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in on_chord_part_return
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 179, in delay
+    return self.apply_async(partial_args, partial_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 218, in apply_async
+    return _apply(args, kwargs, **options)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/task.py", line 513, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: task2() got an unexpected keyword argument 'data'
+[2023-06-16 02:46:23,327: INFO/ForkPoolWorker-1] Task tasks.task1[4e115806-1bf6-44b3-93a9-747802c02444] succeeded in 0.002956316999870978s: 1
+[2023-06-16 02:49:05,223: INFO/MainProcess] Received task: tasks.task1[d4998489-1199-4e09-aec9-0fb646991858]  
+[2023-06-16 02:49:05,226: INFO/MainProcess] Received task: tasks.task1[d9ae435a-3c3b-4b07-8695-669d6f7c98aa]  
+[2023-06-16 02:49:05,227: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:49:05,232: INFO/ForkPoolWorker-1] Task tasks.task1[d4998489-1199-4e09-aec9-0fb646991858] succeeded in 0.0047073030000319704s: 1
+[2023-06-16 02:49:05,232: INFO/MainProcess] Received task: tasks.task1[d98f949a-4bd3-45e5-b4ff-de14b91f896e]  
+[2023-06-16 02:49:05,236: INFO/MainProcess] Received task: tasks.task1[f0494d24-9a2d-487d-a1f3-183ed0b0588b]  
+[2023-06-16 02:49:05,238: INFO/MainProcess] Received task: tasks.task1[f4d75dde-b0e1-4544-b233-946fc354a51c]  
+[2023-06-16 02:49:05,239: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:49:05,241: INFO/ForkPoolWorker-1] Task tasks.task1[d9ae435a-3c3b-4b07-8695-669d6f7c98aa] succeeded in 0.0020160220001343987s: 1
+[2023-06-16 02:49:05,243: INFO/MainProcess] Received task: tasks.task1[bd7e0b26-ca89-4a86-b8a3-9f314dc7606d]  
+[2023-06-16 02:49:05,244: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:49:05,246: INFO/ForkPoolWorker-1] Task tasks.task1[d98f949a-4bd3-45e5-b4ff-de14b91f896e] succeeded in 0.002000844999884066s: 1
+[2023-06-16 02:49:05,248: INFO/MainProcess] Received task: tasks.task1[b88dafd7-67b6-40f4-bd91-eda677ed37bd]  
+[2023-06-16 02:49:05,249: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:49:05,250: INFO/ForkPoolWorker-1] Task tasks.task1[f0494d24-9a2d-487d-a1f3-183ed0b0588b] succeeded in 0.0013737839999521384s: 1
+[2023-06-16 02:49:05,252: INFO/MainProcess] Received task: tasks.task1[8fb82764-1445-4b20-acfc-c2fb60d78b20]  
+[2023-06-16 02:49:05,253: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:49:05,254: INFO/ForkPoolWorker-1] Task tasks.task1[f4d75dde-b0e1-4544-b233-946fc354a51c] succeeded in 0.001308348000065962s: 1
+[2023-06-16 02:49:05,257: INFO/MainProcess] Received task: tasks.task1[eafca2ac-0c0a-45df-b974-bb22cbebd592]  
+[2023-06-16 02:49:05,257: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:49:05,258: INFO/ForkPoolWorker-1] Task tasks.task1[bd7e0b26-ca89-4a86-b8a3-9f314dc7606d] succeeded in 0.001146084000083647s: 1
+[2023-06-16 02:49:05,260: INFO/MainProcess] Received task: tasks.task1[73e5f7b4-b69d-4fed-a4bc-a0bbf3967385]  
+[2023-06-16 02:49:05,261: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:49:05,264: INFO/ForkPoolWorker-1] Task tasks.task1[b88dafd7-67b6-40f4-bd91-eda677ed37bd] succeeded in 0.002893432000064422s: 1
+[2023-06-16 02:49:05,266: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:49:05,268: INFO/ForkPoolWorker-1] Task tasks.task1[8fb82764-1445-4b20-acfc-c2fb60d78b20] succeeded in 0.002094187000011516s: 1
+[2023-06-16 02:49:05,270: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:49:05,272: INFO/ForkPoolWorker-1] Task tasks.task1[eafca2ac-0c0a-45df-b974-bb22cbebd592] succeeded in 0.001767907999919771s: 1
+[2023-06-16 02:49:05,273: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:49:05,275: ERROR/ForkPoolWorker-1] Chord callback for '0329e81f-fc96-49d2-834b-a58617581059' raised: TypeError('task2() takes 0 positional arguments but 1 was given',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in on_chord_part_return
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 179, in delay
+    return self.apply_async(partial_args, partial_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 218, in apply_async
+    return _apply(args, kwargs, **options)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/task.py", line 513, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: task2() takes 0 positional arguments but 1 was given
+[2023-06-16 02:49:05,276: INFO/ForkPoolWorker-1] Task tasks.task1[73e5f7b4-b69d-4fed-a4bc-a0bbf3967385] succeeded in 0.0028191930000502907s: 1
+[2023-06-16 02:49:11,264: INFO/MainProcess] Received task: tasks.task1[ff49a16c-291a-4ace-81ef-353e200ca8e5]  
+[2023-06-16 02:49:11,267: INFO/MainProcess] Received task: tasks.task1[bdb3a910-5b5f-4c3e-a83e-932d797b4b39]  
+[2023-06-16 02:49:11,267: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:49:11,270: INFO/MainProcess] Received task: tasks.task1[739d86c4-cea8-49d3-8b65-dff22f18bc55]  
+[2023-06-16 02:49:11,270: INFO/ForkPoolWorker-1] Task tasks.task1[ff49a16c-291a-4ace-81ef-353e200ca8e5] succeeded in 0.0028787549999833573s: 1
+[2023-06-16 02:49:11,274: INFO/MainProcess] Received task: tasks.task1[41a25795-3732-43e9-b810-5d814faa700b]  
+[2023-06-16 02:49:11,276: INFO/MainProcess] Received task: tasks.task1[e737ed06-47aa-46e8-84fe-66fe16ea4bd2]  
+[2023-06-16 02:49:11,276: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:49:11,279: INFO/ForkPoolWorker-1] Task tasks.task1[bdb3a910-5b5f-4c3e-a83e-932d797b4b39] succeeded in 0.0027581530000588828s: 1
+[2023-06-16 02:49:11,282: INFO/MainProcess] Received task: tasks.task1[f0c366e0-de1d-42f8-bdb2-c271c2a397f3]  
+[2023-06-16 02:49:11,283: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:49:11,284: INFO/ForkPoolWorker-1] Task tasks.task1[739d86c4-cea8-49d3-8b65-dff22f18bc55] succeeded in 0.0014008079999712209s: 1
+[2023-06-16 02:49:11,286: INFO/MainProcess] Received task: tasks.task1[1f9f578f-4766-4f69-b699-11f544173f9e]  
+[2023-06-16 02:49:11,286: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:49:11,288: INFO/ForkPoolWorker-1] Task tasks.task1[41a25795-3732-43e9-b810-5d814faa700b] succeeded in 0.0012264689999028633s: 1
+[2023-06-16 02:49:11,290: INFO/MainProcess] Received task: tasks.task1[ab8c9b6a-5255-4e79-a251-55d15d5a5994]  
+[2023-06-16 02:49:11,290: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:49:11,292: INFO/ForkPoolWorker-1] Task tasks.task1[e737ed06-47aa-46e8-84fe-66fe16ea4bd2] succeeded in 0.001983341999903132s: 1
+[2023-06-16 02:49:11,295: INFO/MainProcess] Received task: tasks.task1[d946ff9a-547b-40db-89b2-b22914f5682e]  
+[2023-06-16 02:49:11,296: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:49:11,298: INFO/ForkPoolWorker-1] Task tasks.task1[f0c366e0-de1d-42f8-bdb2-c271c2a397f3] succeeded in 0.0019917800000257557s: 1
+[2023-06-16 02:49:11,300: INFO/MainProcess] Received task: tasks.task1[a9b558d1-cfe5-478a-860a-916b8c862811]  
+[2023-06-16 02:49:11,301: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:49:11,302: INFO/ForkPoolWorker-1] Task tasks.task1[1f9f578f-4766-4f69-b699-11f544173f9e] succeeded in 0.0016890849999526836s: 1
+[2023-06-16 02:49:11,304: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:49:11,305: INFO/ForkPoolWorker-1] Task tasks.task1[ab8c9b6a-5255-4e79-a251-55d15d5a5994] succeeded in 0.0015663169999697857s: 1
+[2023-06-16 02:49:11,307: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:49:11,308: INFO/ForkPoolWorker-1] Task tasks.task1[d946ff9a-547b-40db-89b2-b22914f5682e] succeeded in 0.0014614630001688056s: 1
+[2023-06-16 02:49:11,309: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:49:11,312: ERROR/ForkPoolWorker-1] Chord callback for 'd149e7b4-31b7-451f-8f15-a86ad8e774c0' raised: TypeError('task2() takes 0 positional arguments but 1 was given',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in on_chord_part_return
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 179, in delay
+    return self.apply_async(partial_args, partial_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/canvas.py", line 218, in apply_async
+    return _apply(args, kwargs, **options)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/task.py", line 513, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: task2() takes 0 positional arguments but 1 was given
+[2023-06-16 02:49:11,314: INFO/ForkPoolWorker-1] Task tasks.task1[a9b558d1-cfe5-478a-860a-916b8c862811] succeeded in 0.00440348099982657s: 1
+[2023-06-16 02:49:33,051: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 185, in _read_from_socket
+    raise socket.error(SERVER_CLOSED_CONNECTION_ERROR)
+OSError: Connection closed by server.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 317, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python3.6/site-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 593, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/loops.py", line 91, in asynloop
+    next(loop)
+  File "/usr/local/lib/python3.6/site-packages/kombu/asynchronous/hub.py", line 364, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 1083, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 354, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 734, in _brpop_read
+    **options)
+  File "/usr/local/lib/python3.6/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 637, in read_response
+    response = self._parser.read_response()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 290, in read_response
+    response = self._buffer.readline()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 224, in readline
+    self._read_from_socket()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 199, in _read_from_socket
+    (e.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: ('Connection closed by server.',)
+[2023-06-16 02:49:33,096: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error 111 connecting to redis:6379. Connection refused..
+Trying again in 2.00 seconds...
+
+[2023-06-16 02:49:35,102: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-06-16 02:49:35,112: INFO/MainProcess] mingle: searching for neighbors
+[2023-06-16 02:49:36,116: INFO/MainProcess] mingle: all alone
+[2023-06-16 02:49:46,286: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-06-16 02:49:46,296: INFO/MainProcess] mingle: searching for neighbors
+[2023-06-16 02:49:47,314: INFO/MainProcess] mingle: all alone
+[2023-06-16 02:49:47,324: INFO/MainProcess] celery@3e9644e3be69 ready.
+[2023-06-16 02:49:49,593: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-06-16 02:50:01,567: INFO/MainProcess] Received task: tasks.task1[4c8a938d-296b-4b91-8a6f-a3f77d391cee]  
+[2023-06-16 02:50:01,569: INFO/MainProcess] Received task: tasks.task1[71749647-ca11-4cdb-a350-0123f3aa5fe0]  
+[2023-06-16 02:50:01,570: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:50:01,573: INFO/MainProcess] Received task: tasks.task1[1bcab2bf-dfb6-4241-97f3-fc7f8f9a8433]  
+[2023-06-16 02:50:01,576: INFO/MainProcess] Received task: tasks.task1[1906fc16-7936-4c01-86be-8f09b517006e]  
+[2023-06-16 02:50:01,582: INFO/ForkPoolWorker-1] Task tasks.task1[4c8a938d-296b-4b91-8a6f-a3f77d391cee] succeeded in 0.011564711000119132s: {'data': 0}
+[2023-06-16 02:50:01,582: INFO/MainProcess] Received task: tasks.task1[932ad3e4-aaf6-4487-9140-b75579f9a24a]  
+[2023-06-16 02:50:01,585: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:50:01,586: INFO/ForkPoolWorker-1] Task tasks.task1[71749647-ca11-4cdb-a350-0123f3aa5fe0] succeeded in 0.0015341910000188363s: {'data': 1}
+[2023-06-16 02:50:01,589: INFO/MainProcess] Received task: tasks.task1[3bc97f0e-a3a3-49ff-8b16-b6d0a7d75d3a]  
+[2023-06-16 02:50:01,589: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:50:01,590: INFO/ForkPoolWorker-1] Task tasks.task1[1bcab2bf-dfb6-4241-97f3-fc7f8f9a8433] succeeded in 0.0011765440001454408s: {'data': 2}
+[2023-06-16 02:50:01,592: INFO/MainProcess] Received task: tasks.task1[e399895f-9f7a-4b83-9dc2-2047e8a63d89]  
+[2023-06-16 02:50:01,593: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:50:01,595: INFO/ForkPoolWorker-1] Task tasks.task1[1906fc16-7936-4c01-86be-8f09b517006e] succeeded in 0.0021874369999750343s: {'data': 3}
+[2023-06-16 02:50:01,597: INFO/MainProcess] Received task: tasks.task1[341b1642-732d-43f7-b2cd-45582db7d5c4]  
+[2023-06-16 02:50:01,598: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:50:01,599: INFO/ForkPoolWorker-1] Task tasks.task1[932ad3e4-aaf6-4487-9140-b75579f9a24a] succeeded in 0.001454682000030516s: {'data': 4}
+[2023-06-16 02:50:01,602: INFO/MainProcess] Received task: tasks.task1[7cf5256e-715f-43a2-a4fa-286720a7a337]  
+[2023-06-16 02:50:01,602: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:50:01,603: INFO/ForkPoolWorker-1] Task tasks.task1[3bc97f0e-a3a3-49ff-8b16-b6d0a7d75d3a] succeeded in 0.0012505140000484971s: {'data': 5}
+[2023-06-16 02:50:01,605: INFO/MainProcess] Received task: tasks.task1[bed1ae57-2a10-4c24-ac37-28f6098a2fb1]  
+[2023-06-16 02:50:01,606: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:50:01,607: INFO/ForkPoolWorker-1] Task tasks.task1[e399895f-9f7a-4b83-9dc2-2047e8a63d89] succeeded in 0.0015458989998933248s: {'data': 6}
+[2023-06-16 02:50:01,609: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:50:01,611: INFO/ForkPoolWorker-1] Task tasks.task1[341b1642-732d-43f7-b2cd-45582db7d5c4] succeeded in 0.002207989999988058s: {'data': 7}
+[2023-06-16 02:50:01,614: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:50:01,616: INFO/ForkPoolWorker-1] Task tasks.task1[7cf5256e-715f-43a2-a4fa-286720a7a337] succeeded in 0.0015494710000893974s: {'data': 8}
+[2023-06-16 02:50:01,617: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:50:01,641: INFO/ForkPoolWorker-1] Task tasks.task1[bed1ae57-2a10-4c24-ac37-28f6098a2fb1] succeeded in 0.023430729999972755s: {'data': 9}
+[2023-06-16 02:50:01,641: INFO/MainProcess] Received task: tasks.task2[2521c95f-757d-4cac-b3e3-e6925015b30c]  
+[2023-06-16 02:50:01,644: WARNING/ForkPoolWorker-1] start task2:1000
+[2023-06-16 02:50:01,645: INFO/ForkPoolWorker-1] Task tasks.task2[2521c95f-757d-4cac-b3e3-e6925015b30c] succeeded in 0.001305074999891076s: None
+[2023-06-16 02:50:52,717: INFO/MainProcess] Received task: tasks.task1[75722483-ee13-4121-9e7f-4d49dd7d266a]  
+[2023-06-16 02:50:52,720: INFO/MainProcess] Received task: tasks.task1[ca67f05a-753a-4b30-a8a5-e800b751cdcc]  
+[2023-06-16 02:50:52,721: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:50:52,724: INFO/MainProcess] Received task: tasks.task1[5bbc521f-0df3-40c8-a83f-cd88a605c77b]  
+[2023-06-16 02:50:52,724: INFO/ForkPoolWorker-1] Task tasks.task1[75722483-ee13-4121-9e7f-4d49dd7d266a] succeeded in 0.0034440330000506947s: {'data': 0}
+[2023-06-16 02:50:52,728: INFO/MainProcess] Received task: tasks.task1[0edf6e52-d3ba-4492-9525-367d97e36c1a]  
+[2023-06-16 02:50:52,731: INFO/MainProcess] Received task: tasks.task1[6a5ec6ef-8c99-43ff-9c10-6f04a415f7a1]  
+[2023-06-16 02:50:52,732: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:50:52,733: INFO/ForkPoolWorker-1] Task tasks.task1[ca67f05a-753a-4b30-a8a5-e800b751cdcc] succeeded in 0.0017239220001101785s: {'data': 1}
+[2023-06-16 02:50:52,736: INFO/MainProcess] Received task: tasks.task1[c7912b23-b169-48f4-a39c-f7480f082404]  
+[2023-06-16 02:50:52,736: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:50:52,738: INFO/ForkPoolWorker-1] Task tasks.task1[5bbc521f-0df3-40c8-a83f-cd88a605c77b] succeeded in 0.0014618370000789582s: {'data': 2}
+[2023-06-16 02:50:52,740: INFO/MainProcess] Received task: tasks.task1[79fb1415-ae3d-4a6d-8b14-23944b619abf]  
+[2023-06-16 02:50:52,740: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:50:52,742: INFO/ForkPoolWorker-1] Task tasks.task1[0edf6e52-d3ba-4492-9525-367d97e36c1a] succeeded in 0.0017697429998406733s: {'data': 3}
+[2023-06-16 02:50:52,744: INFO/MainProcess] Received task: tasks.task1[630a2a19-b946-4a3a-a9c8-dee920077279]  
+[2023-06-16 02:50:52,744: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:50:52,746: INFO/ForkPoolWorker-1] Task tasks.task1[6a5ec6ef-8c99-43ff-9c10-6f04a415f7a1] succeeded in 0.0017627239999455924s: {'data': 4}
+[2023-06-16 02:50:52,749: INFO/MainProcess] Received task: tasks.task1[5578b0b7-3097-4b4e-9f08-c46b903f9cfb]  
+[2023-06-16 02:50:52,749: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:50:52,751: INFO/ForkPoolWorker-1] Task tasks.task1[c7912b23-b169-48f4-a39c-f7480f082404] succeeded in 0.0013949300000604126s: {'data': 5}
+[2023-06-16 02:50:52,753: INFO/MainProcess] Received task: tasks.task1[b5a97fdf-39b1-46d8-bede-74bd886c6506]  
+[2023-06-16 02:50:52,754: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:50:52,755: INFO/ForkPoolWorker-1] Task tasks.task1[79fb1415-ae3d-4a6d-8b14-23944b619abf] succeeded in 0.0015175499997894804s: {'data': 6}
+[2023-06-16 02:50:52,758: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:50:52,760: INFO/ForkPoolWorker-1] Task tasks.task1[630a2a19-b946-4a3a-a9c8-dee920077279] succeeded in 0.001966058000107296s: {'data': 7}
+[2023-06-16 02:50:52,761: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:50:52,763: INFO/ForkPoolWorker-1] Task tasks.task1[5578b0b7-3097-4b4e-9f08-c46b903f9cfb] succeeded in 0.0022071180001148605s: {'data': 8}
+[2023-06-16 02:50:52,765: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:50:52,768: INFO/ForkPoolWorker-1] Task tasks.task1[b5a97fdf-39b1-46d8-bede-74bd886c6506] succeeded in 0.0031664170001022285s: {'data': 9}
+[2023-06-16 02:50:52,768: INFO/MainProcess] Received task: tasks.task2[2b49ac0c-15f9-498f-beba-ade3ab9cda41]  
+[2023-06-16 02:50:52,770: WARNING/ForkPoolWorker-1] start task2:1000
+[2023-06-16 02:50:52,770: INFO/ForkPoolWorker-1] Task tasks.task2[2b49ac0c-15f9-498f-beba-ade3ab9cda41] succeeded in 0.0006055559997548698s: None
+[2023-06-16 02:51:30,690: INFO/MainProcess] Received task: tasks.task1[b1affc22-704d-4c95-9e15-d825ff9ec3d3]  
+[2023-06-16 02:51:30,693: INFO/MainProcess] Received task: tasks.task1[0b9bfdda-8f85-45f3-afde-ddbbc1a341e7]  
+[2023-06-16 02:51:30,695: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:51:30,699: INFO/ForkPoolWorker-1] Task tasks.task1[b1affc22-704d-4c95-9e15-d825ff9ec3d3] succeeded in 0.004039616000227397s: {'data': 0}
+[2023-06-16 02:51:30,699: INFO/MainProcess] Received task: tasks.task1[e7853243-43dc-42bf-9773-771607de01cc]  
+[2023-06-16 02:51:30,702: INFO/MainProcess] Received task: tasks.task1[b47e1483-ceb4-4052-b14b-86c96840d6c6]  
+[2023-06-16 02:51:30,705: INFO/MainProcess] Received task: tasks.task1[f634850a-a0be-4a4a-b39e-83d8d4020a73]  
+[2023-06-16 02:51:30,705: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:51:30,707: INFO/ForkPoolWorker-1] Task tasks.task1[0b9bfdda-8f85-45f3-afde-ddbbc1a341e7] succeeded in 0.0014192379999258264s: {'data': 1}
+[2023-06-16 02:51:30,709: INFO/MainProcess] Received task: tasks.task1[8f344a02-4194-4bc3-8ba8-22b7afe458a8]  
+[2023-06-16 02:51:30,710: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:51:30,712: INFO/ForkPoolWorker-1] Task tasks.task1[e7853243-43dc-42bf-9773-771607de01cc] succeeded in 0.002303018000020529s: {'data': 2}
+[2023-06-16 02:51:30,715: INFO/MainProcess] Received task: tasks.task1[71f5b43f-3f82-4188-8863-e1a8e9adf8b1]  
+[2023-06-16 02:51:30,715: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:51:30,717: INFO/ForkPoolWorker-1] Task tasks.task1[b47e1483-ceb4-4052-b14b-86c96840d6c6] succeeded in 0.0012670919995798613s: {'data': 3}
+[2023-06-16 02:51:30,719: INFO/MainProcess] Received task: tasks.task1[46f3e8d2-66fa-47af-959a-a8a2fb54b4a2]  
+[2023-06-16 02:51:30,720: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:51:30,721: INFO/ForkPoolWorker-1] Task tasks.task1[f634850a-a0be-4a4a-b39e-83d8d4020a73] succeeded in 0.0015351960000771214s: {'data': 4}
+[2023-06-16 02:51:30,723: INFO/MainProcess] Received task: tasks.task1[a47c233f-2301-460d-ab59-f7936462f2ec]  
+[2023-06-16 02:51:30,723: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:51:30,725: INFO/ForkPoolWorker-1] Task tasks.task1[8f344a02-4194-4bc3-8ba8-22b7afe458a8] succeeded in 0.0015835039998819411s: {'data': 5}
+[2023-06-16 02:51:30,727: INFO/MainProcess] Received task: tasks.task1[51f9dcff-f26d-4a30-bf9f-d151abc1c6fd]  
+[2023-06-16 02:51:30,727: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:51:30,730: INFO/ForkPoolWorker-1] Task tasks.task1[71f5b43f-3f82-4188-8863-e1a8e9adf8b1] succeeded in 0.002537477000259969s: {'data': 6}
+[2023-06-16 02:51:30,733: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:51:30,735: INFO/ForkPoolWorker-1] Task tasks.task1[46f3e8d2-66fa-47af-959a-a8a2fb54b4a2] succeeded in 0.0016123949999382603s: {'data': 7}
+[2023-06-16 02:51:30,736: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:51:30,737: INFO/ForkPoolWorker-1] Task tasks.task1[a47c233f-2301-460d-ab59-f7936462f2ec] succeeded in 0.0014741320001121494s: {'data': 8}
+[2023-06-16 02:51:30,739: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:51:30,741: INFO/ForkPoolWorker-1] Task tasks.task1[51f9dcff-f26d-4a30-bf9f-d151abc1c6fd] succeeded in 0.0023747770001136814s: {'data': 9}
+[2023-06-16 02:51:30,741: INFO/MainProcess] Received task: tasks.task2[bff2f325-f217-49ae-90d9-29cf75a54cc0]  
+[2023-06-16 02:51:30,743: WARNING/ForkPoolWorker-1] start task2:1000
+[2023-06-16 02:51:30,744: INFO/ForkPoolWorker-1] Task tasks.task2[bff2f325-f217-49ae-90d9-29cf75a54cc0] succeeded in 0.0009547550002935168s: None
+[2023-06-16 02:51:54,742: INFO/MainProcess] Received task: tasks.task1[a7f2cc6a-1a02-4427-83d4-1b7ebc85ac02]  
+[2023-06-16 02:51:54,745: INFO/MainProcess] Received task: tasks.task1[2931ec87-35f5-441d-b138-029a98623c20]  
+[2023-06-16 02:51:54,746: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:51:54,750: INFO/MainProcess] Received task: tasks.task1[4c16a9c3-76be-4005-a75d-434477e98945]  
+[2023-06-16 02:51:54,750: INFO/ForkPoolWorker-1] Task tasks.task1[a7f2cc6a-1a02-4427-83d4-1b7ebc85ac02] succeeded in 0.004481526999825292s: {'data': 0}
+[2023-06-16 02:51:54,753: INFO/MainProcess] Received task: tasks.task1[2ee0669c-dbac-41ec-83f2-73f21faae0a1]  
+[2023-06-16 02:51:54,756: INFO/MainProcess] Received task: tasks.task1[2f9ae244-4646-4139-a20e-07530f27079e]  
+[2023-06-16 02:51:54,756: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:51:54,758: INFO/ForkPoolWorker-1] Task tasks.task1[2931ec87-35f5-441d-b138-029a98623c20] succeeded in 0.0014211689999683585s: {'data': 1}
+[2023-06-16 02:51:54,760: INFO/MainProcess] Received task: tasks.task1[e741078a-6413-4886-b216-c0ecfa9644a8]  
+[2023-06-16 02:51:54,761: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:51:54,763: INFO/ForkPoolWorker-1] Task tasks.task1[4c16a9c3-76be-4005-a75d-434477e98945] succeeded in 0.002499903999705566s: {'data': 2}
+[2023-06-16 02:51:54,766: INFO/MainProcess] Received task: tasks.task1[5fa840e9-c1c5-4cf6-9b32-24b97423b843]  
+[2023-06-16 02:51:54,766: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:51:54,768: INFO/ForkPoolWorker-1] Task tasks.task1[2ee0669c-dbac-41ec-83f2-73f21faae0a1] succeeded in 0.0017497369999546208s: {'data': 3}
+[2023-06-16 02:51:54,769: INFO/MainProcess] Received task: tasks.task1[61ff90ba-424b-4a57-b8ab-c081c928609a]  
+[2023-06-16 02:51:54,770: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:51:54,772: INFO/ForkPoolWorker-1] Task tasks.task1[2f9ae244-4646-4139-a20e-07530f27079e] succeeded in 0.0016060920002018975s: {'data': 4}
+[2023-06-16 02:51:54,774: INFO/MainProcess] Received task: tasks.task1[04286778-9cb9-4f0f-a92c-cbe1f4d0f465]  
+[2023-06-16 02:51:54,774: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:51:54,776: INFO/ForkPoolWorker-1] Task tasks.task1[e741078a-6413-4886-b216-c0ecfa9644a8] succeeded in 0.0014102949999141856s: {'data': 5}
+[2023-06-16 02:51:54,778: INFO/MainProcess] Received task: tasks.task1[61a674eb-3dde-49e7-b73a-3a2df4d17cfc]  
+[2023-06-16 02:51:54,779: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:51:54,781: INFO/ForkPoolWorker-1] Task tasks.task1[5fa840e9-c1c5-4cf6-9b32-24b97423b843] succeeded in 0.002337235000140936s: {'data': 6}
+[2023-06-16 02:51:54,783: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:51:54,785: INFO/ForkPoolWorker-1] Task tasks.task1[61ff90ba-424b-4a57-b8ab-c081c928609a] succeeded in 0.00166339399993376s: {'data': 7}
+[2023-06-16 02:51:54,786: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:51:54,788: INFO/ForkPoolWorker-1] Task tasks.task1[04286778-9cb9-4f0f-a92c-cbe1f4d0f465] succeeded in 0.0017229059999408491s: {'data': 8}
+[2023-06-16 02:51:54,789: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:51:54,792: INFO/ForkPoolWorker-1] Task tasks.task1[61a674eb-3dde-49e7-b73a-3a2df4d17cfc] succeeded in 0.003000414999860368s: {'data': 9}
+[2023-06-16 02:51:54,793: INFO/MainProcess] Received task: tasks.task2[ef233bde-86be-4ddb-89f7-26dea67d3fee]  
+[2023-06-16 02:51:54,795: WARNING/ForkPoolWorker-1] start task2:1000
+[2023-06-16 02:51:54,795: INFO/ForkPoolWorker-1] Task tasks.task2[ef233bde-86be-4ddb-89f7-26dea67d3fee] succeeded in 0.0007645299997420807s: None
+[2023-06-16 02:52:08,715: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 185, in _read_from_socket
+    raise socket.error(SERVER_CLOSED_CONNECTION_ERROR)
+OSError: Connection closed by server.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 317, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python3.6/site-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 593, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/loops.py", line 91, in asynloop
+    next(loop)
+  File "/usr/local/lib/python3.6/site-packages/kombu/asynchronous/hub.py", line 364, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 1083, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 354, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 734, in _brpop_read
+    **options)
+  File "/usr/local/lib/python3.6/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 637, in read_response
+    response = self._parser.read_response()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 290, in read_response
+    response = self._buffer.readline()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 224, in readline
+    self._read_from_socket()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 199, in _read_from_socket
+    (e.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: ('Connection closed by server.',)
+[2023-06-16 02:52:08,740: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error 111 connecting to redis:6379. Connection refused..
+Trying again in 2.00 seconds...
+
+[2023-06-16 02:52:10,744: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-06-16 02:52:10,754: INFO/MainProcess] mingle: searching for neighbors
+[2023-06-16 02:52:11,757: INFO/MainProcess] mingle: all alone
+[2023-06-16 02:52:21,835: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-06-16 02:52:21,845: INFO/MainProcess] mingle: searching for neighbors
+[2023-06-16 02:52:22,863: INFO/MainProcess] mingle: all alone
+[2023-06-16 02:52:22,874: INFO/MainProcess] celery@3e9644e3be69 ready.
+[2023-06-16 02:52:25,187: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-06-16 02:52:39,174: INFO/MainProcess] Received task: tasks.task1[7614593a-6387-4352-a090-01ab9bce66a4]  
+[2023-06-16 02:52:39,178: INFO/MainProcess] Received task: tasks.task1[a1f423f3-574e-4e68-a950-5dd68b91acf4]  
+[2023-06-16 02:52:39,180: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:52:39,184: INFO/MainProcess] Received task: tasks.task1[47d28f28-211b-49c0-9987-24a7e1bca9e9]  
+[2023-06-16 02:52:39,189: INFO/MainProcess] Received task: tasks.task1[c8c65625-4f76-4dfb-883c-f60bdea0004d]  
+[2023-06-16 02:52:39,191: INFO/MainProcess] Received task: tasks.task1[1d1df834-a599-42e9-ba7a-df589debfa76]  
+[2023-06-16 02:52:39,194: ERROR/ForkPoolWorker-1] Task tasks.task1[7614593a-6387-4352-a090-01ab9bce66a4] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:52:39,197: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:52:39,199: ERROR/ForkPoolWorker-1] Task tasks.task1[a1f423f3-574e-4e68-a950-5dd68b91acf4] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:52:39,201: INFO/MainProcess] Received task: tasks.task1[045effdf-cf57-4aa9-9b0f-0e00fedef200]  
+[2023-06-16 02:52:39,202: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:52:39,203: ERROR/ForkPoolWorker-1] Task tasks.task1[47d28f28-211b-49c0-9987-24a7e1bca9e9] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:52:39,206: INFO/MainProcess] Received task: tasks.task1[23a369d7-6e32-478f-9c0d-12d25d45ae1e]  
+[2023-06-16 02:52:39,206: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:52:39,208: ERROR/ForkPoolWorker-1] Task tasks.task1[c8c65625-4f76-4dfb-883c-f60bdea0004d] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:52:39,211: INFO/MainProcess] Received task: tasks.task1[28fe4dd8-7edb-4d4f-ae25-22646bc30da3]  
+[2023-06-16 02:52:39,212: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:52:39,213: ERROR/ForkPoolWorker-1] Task tasks.task1[1d1df834-a599-42e9-ba7a-df589debfa76] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:52:39,219: INFO/MainProcess] Received task: tasks.task1[2a1d0f7f-0fb0-453d-800f-86a5d327c085]  
+[2023-06-16 02:52:39,220: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:52:39,222: ERROR/ForkPoolWorker-1] Task tasks.task1[045effdf-cf57-4aa9-9b0f-0e00fedef200] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:52:39,225: INFO/MainProcess] Received task: tasks.task1[e42953c4-8904-45d6-b536-fee6b6273ce2]  
+[2023-06-16 02:52:39,226: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:52:39,228: ERROR/ForkPoolWorker-1] Task tasks.task1[23a369d7-6e32-478f-9c0d-12d25d45ae1e] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:52:39,230: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:52:39,232: ERROR/ForkPoolWorker-1] Task tasks.task1[28fe4dd8-7edb-4d4f-ae25-22646bc30da3] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:52:39,234: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:52:39,236: ERROR/ForkPoolWorker-1] Task tasks.task1[2a1d0f7f-0fb0-453d-800f-86a5d327c085] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:52:39,237: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:52:39,239: ERROR/ForkPoolWorker-1] Chord callback for '34c4ef0e-b3d5-4f12-83e7-e3f56dbc7b7c' raised: ChordError('Dependency 7614593a-6387-4352-a090-01ab9bce66a4 raised Exception()',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in on_chord_part_return
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in <listcomp>
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 323, in _unpack_chord_result
+    raise ChordError('Dependency {0} raised {1!r}'.format(tid, retval))
+celery.exceptions.ChordError: Dependency 7614593a-6387-4352-a090-01ab9bce66a4 raised Exception()
+[2023-06-16 02:52:39,241: ERROR/ForkPoolWorker-1] Task tasks.task1[e42953c4-8904-45d6-b536-fee6b6273ce2] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:53:27,976: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 185, in _read_from_socket
+    raise socket.error(SERVER_CLOSED_CONNECTION_ERROR)
+OSError: Connection closed by server.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 317, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python3.6/site-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 593, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/loops.py", line 91, in asynloop
+    next(loop)
+  File "/usr/local/lib/python3.6/site-packages/kombu/asynchronous/hub.py", line 364, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 1083, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 354, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 734, in _brpop_read
+    **options)
+  File "/usr/local/lib/python3.6/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 637, in read_response
+    response = self._parser.read_response()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 290, in read_response
+    response = self._buffer.readline()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 224, in readline
+    self._read_from_socket()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 199, in _read_from_socket
+    (e.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: ('Connection closed by server.',)
+[2023-06-16 02:53:28,002: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error 111 connecting to redis:6379. Connection refused..
+Trying again in 2.00 seconds...
+
+[2023-06-16 02:53:30,006: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-06-16 02:53:30,016: INFO/MainProcess] mingle: searching for neighbors
+[2023-06-16 02:53:31,019: INFO/MainProcess] mingle: all alone
+[2023-06-16 02:53:41,121: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-06-16 02:53:41,133: INFO/MainProcess] mingle: searching for neighbors
+[2023-06-16 02:53:42,151: INFO/MainProcess] mingle: all alone
+[2023-06-16 02:53:42,158: INFO/MainProcess] celery@3e9644e3be69 ready.
+[2023-06-16 02:53:44,472: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-06-16 02:53:53,913: INFO/MainProcess] Received task: tasks.task1[e052edd3-09ed-4cd7-8bc1-c8b0ea17db46]  
+[2023-06-16 02:53:53,918: INFO/MainProcess] Received task: tasks.task1[50191aa8-4f75-4064-9521-0280e5e47db5]  
+[2023-06-16 02:53:53,919: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:53:53,923: INFO/MainProcess] Received task: tasks.task1[bed26adb-add4-4b8e-9898-a9e1a75dcca8]  
+[2023-06-16 02:53:53,926: INFO/MainProcess] Received task: tasks.task1[22d414f6-4e1a-4c93-a13e-3fa1aeb96a70]  
+[2023-06-16 02:53:53,931: INFO/MainProcess] Received task: tasks.task1[069a031d-f505-4391-8969-918691e8d4d6]  
+[2023-06-16 02:53:53,933: ERROR/ForkPoolWorker-1] Task tasks.task1[e052edd3-09ed-4cd7-8bc1-c8b0ea17db46] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:53:53,935: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:53:53,936: ERROR/ForkPoolWorker-1] Task tasks.task1[50191aa8-4f75-4064-9521-0280e5e47db5] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:53:53,938: INFO/MainProcess] Received task: tasks.task1[be1eef58-b4e4-431a-9317-c41160519242]  
+[2023-06-16 02:53:53,938: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:53:53,940: ERROR/ForkPoolWorker-1] Task tasks.task1[bed26adb-add4-4b8e-9898-a9e1a75dcca8] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:53:53,943: INFO/MainProcess] Received task: tasks.task1[ff3a069e-8f2b-4834-b401-caaeb39ec141]  
+[2023-06-16 02:53:53,943: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:53:53,946: ERROR/ForkPoolWorker-1] Task tasks.task1[22d414f6-4e1a-4c93-a13e-3fa1aeb96a70] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:53:53,949: INFO/MainProcess] Received task: tasks.task1[3eef24f3-7d24-43c0-a387-993a0cd88c08]  
+[2023-06-16 02:53:53,949: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:53:53,951: ERROR/ForkPoolWorker-1] Task tasks.task1[069a031d-f505-4391-8969-918691e8d4d6] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:53:53,954: INFO/MainProcess] Received task: tasks.task1[08652918-06d6-4ab1-a6cf-22eb17037c9e]  
+[2023-06-16 02:53:53,955: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:53:53,957: ERROR/ForkPoolWorker-1] Task tasks.task1[be1eef58-b4e4-431a-9317-c41160519242] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:53:53,959: INFO/MainProcess] Received task: tasks.task1[bdab6075-9ec0-4d5d-9106-3df2b3e77543]  
+[2023-06-16 02:53:53,959: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:53:53,961: ERROR/ForkPoolWorker-1] Task tasks.task1[ff3a069e-8f2b-4834-b401-caaeb39ec141] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:53:53,965: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:53:53,967: ERROR/ForkPoolWorker-1] Task tasks.task1[3eef24f3-7d24-43c0-a387-993a0cd88c08] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:53:53,968: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:53:53,970: ERROR/ForkPoolWorker-1] Task tasks.task1[08652918-06d6-4ab1-a6cf-22eb17037c9e] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:53:53,972: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:53:53,974: ERROR/ForkPoolWorker-1] Chord callback for '8fe7353e-8d19-4548-af9b-849e02a93d72' raised: ChordError('Dependency e052edd3-09ed-4cd7-8bc1-c8b0ea17db46 raised Exception()',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in on_chord_part_return
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 368, in <listcomp>
+    callback.delay([unpack(tup, decode) for tup in resl])
+  File "/usr/local/lib/python3.6/site-packages/celery/backends/redis.py", line 323, in _unpack_chord_result
+    raise ChordError('Dependency {0} raised {1!r}'.format(tid, retval))
+celery.exceptions.ChordError: Dependency e052edd3-09ed-4cd7-8bc1-c8b0ea17db46 raised Exception()
+[2023-06-16 02:53:53,975: ERROR/ForkPoolWorker-1] Task tasks.task1[bdab6075-9ec0-4d5d-9106-3df2b3e77543] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 382, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 641, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/tasks.py", line 33, in task1
+    raise Exception()
+Exception
+[2023-06-16 02:54:55,287: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 185, in _read_from_socket
+    raise socket.error(SERVER_CLOSED_CONNECTION_ERROR)
+OSError: Connection closed by server.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 317, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python3.6/site-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 593, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/loops.py", line 91, in asynloop
+    next(loop)
+  File "/usr/local/lib/python3.6/site-packages/kombu/asynchronous/hub.py", line 364, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 1083, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 354, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 734, in _brpop_read
+    **options)
+  File "/usr/local/lib/python3.6/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 637, in read_response
+    response = self._parser.read_response()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 290, in read_response
+    response = self._buffer.readline()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 224, in readline
+    self._read_from_socket()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 199, in _read_from_socket
+    (e.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: ('Connection closed by server.',)
+[2023-06-16 02:54:55,315: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error 111 connecting to redis:6379. Connection refused..
+Trying again in 2.00 seconds...
+
+[2023-06-16 02:54:57,326: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-06-16 02:54:57,339: INFO/MainProcess] mingle: searching for neighbors
+[2023-06-16 02:54:58,343: INFO/MainProcess] mingle: all alone
+[2023-06-16 02:55:08,477: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-06-16 02:55:08,488: INFO/MainProcess] mingle: searching for neighbors
+[2023-06-16 02:55:09,506: INFO/MainProcess] mingle: all alone
+[2023-06-16 02:55:09,516: INFO/MainProcess] celery@3e9644e3be69 ready.
+[2023-06-16 02:55:11,813: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-06-16 02:55:20,583: INFO/MainProcess] Received task: tasks.task1[67f6e909-f321-4e95-8e76-f55155c57067]  
+[2023-06-16 02:55:20,587: INFO/MainProcess] Received task: tasks.task1[609965ed-25e1-4c8c-a35e-8de762124e8d]  
+[2023-06-16 02:55:20,588: WARNING/ForkPoolWorker-1] start task1:0
+[2023-06-16 02:55:20,588: WARNING/ForkPoolWorker-1] after exception
+[2023-06-16 02:55:20,592: INFO/MainProcess] Received task: tasks.task1[7bf79607-9783-4354-ac41-3c28e42d30ed]  
+[2023-06-16 02:55:20,596: INFO/ForkPoolWorker-1] Task tasks.task1[67f6e909-f321-4e95-8e76-f55155c57067] succeeded in 0.008144518999870343s: None
+[2023-06-16 02:55:20,600: INFO/MainProcess] Received task: tasks.task1[5774a97c-8f53-459e-b0de-9193cf454a28]  
+[2023-06-16 02:55:20,603: INFO/MainProcess] Received task: tasks.task1[43bbb465-ac6e-4460-96fd-809708746393]  
+[2023-06-16 02:55:20,604: WARNING/ForkPoolWorker-1] start task1:1
+[2023-06-16 02:55:20,604: WARNING/ForkPoolWorker-1] after exception
+[2023-06-16 02:55:20,606: INFO/ForkPoolWorker-1] Task tasks.task1[609965ed-25e1-4c8c-a35e-8de762124e8d] succeeded in 0.0017094139998334867s: None
+[2023-06-16 02:55:20,608: INFO/MainProcess] Received task: tasks.task1[c9c8e821-55e5-4562-a8fa-09ee49d55845]  
+[2023-06-16 02:55:20,608: WARNING/ForkPoolWorker-1] start task1:2
+[2023-06-16 02:55:20,608: WARNING/ForkPoolWorker-1] after exception
+[2023-06-16 02:55:20,610: INFO/ForkPoolWorker-1] Task tasks.task1[7bf79607-9783-4354-ac41-3c28e42d30ed] succeeded in 0.001446295999812719s: None
+[2023-06-16 02:55:20,614: INFO/MainProcess] Received task: tasks.task1[7aadef0f-02e7-43a4-91d5-92c8a375cb96]  
+[2023-06-16 02:55:20,615: WARNING/ForkPoolWorker-1] start task1:3
+[2023-06-16 02:55:20,615: WARNING/ForkPoolWorker-1] after exception
+[2023-06-16 02:55:20,616: INFO/ForkPoolWorker-1] Task tasks.task1[5774a97c-8f53-459e-b0de-9193cf454a28] succeeded in 0.0016845059999468504s: None
+[2023-06-16 02:55:20,618: INFO/MainProcess] Received task: tasks.task1[24de38da-0614-4263-98dc-356dcedd66cd]  
+[2023-06-16 02:55:20,619: WARNING/ForkPoolWorker-1] start task1:4
+[2023-06-16 02:55:20,619: WARNING/ForkPoolWorker-1] after exception
+[2023-06-16 02:55:20,620: INFO/ForkPoolWorker-1] Task tasks.task1[43bbb465-ac6e-4460-96fd-809708746393] succeeded in 0.0015464240000255813s: None
+[2023-06-16 02:55:20,622: INFO/MainProcess] Received task: tasks.task1[54f2aeae-68e8-415f-b9ee-ab70cbd78d9f]  
+[2023-06-16 02:55:20,623: WARNING/ForkPoolWorker-1] start task1:5
+[2023-06-16 02:55:20,623: WARNING/ForkPoolWorker-1] after exception
+[2023-06-16 02:55:20,624: INFO/ForkPoolWorker-1] Task tasks.task1[c9c8e821-55e5-4562-a8fa-09ee49d55845] succeeded in 0.0015040469997984474s: None
+[2023-06-16 02:55:20,626: INFO/MainProcess] Received task: tasks.task1[2e57e175-57fd-445e-890d-d0189d75bd20]  
+[2023-06-16 02:55:20,627: WARNING/ForkPoolWorker-1] start task1:6
+[2023-06-16 02:55:20,627: WARNING/ForkPoolWorker-1] after exception
+[2023-06-16 02:55:20,630: INFO/ForkPoolWorker-1] Task tasks.task1[7aadef0f-02e7-43a4-91d5-92c8a375cb96] succeeded in 0.002766272999906505s: None
+[2023-06-16 02:55:20,633: WARNING/ForkPoolWorker-1] start task1:7
+[2023-06-16 02:55:20,633: WARNING/ForkPoolWorker-1] after exception
+[2023-06-16 02:55:20,635: INFO/ForkPoolWorker-1] Task tasks.task1[24de38da-0614-4263-98dc-356dcedd66cd] succeeded in 0.0018232140000691288s: None
+[2023-06-16 02:55:20,636: WARNING/ForkPoolWorker-1] start task1:8
+[2023-06-16 02:55:20,636: WARNING/ForkPoolWorker-1] after exception
+[2023-06-16 02:55:20,637: INFO/ForkPoolWorker-1] Task tasks.task1[54f2aeae-68e8-415f-b9ee-ab70cbd78d9f] succeeded in 0.0013979880000078992s: None
+[2023-06-16 02:55:20,638: WARNING/ForkPoolWorker-1] start task1:9
+[2023-06-16 02:55:20,638: WARNING/ForkPoolWorker-1] after exception
+[2023-06-16 02:55:20,665: INFO/ForkPoolWorker-1] Task tasks.task1[2e57e175-57fd-445e-890d-d0189d75bd20] succeeded in 0.026754749000247102s: None
+[2023-06-16 02:55:20,666: INFO/MainProcess] Received task: tasks.task2[4a4e5a7f-164a-4fb6-92e9-d904001ec8d8]  
+[2023-06-16 02:55:20,668: WARNING/ForkPoolWorker-1] start task2:1000
+[2023-06-16 02:55:20,669: INFO/ForkPoolWorker-1] Task tasks.task2[4a4e5a7f-164a-4fb6-92e9-d904001ec8d8] succeeded in 0.0008806350001577812s: None
+[2023-06-16 14:06:14,354: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 185, in _read_from_socket
+    raise socket.error(SERVER_CLOSED_CONNECTION_ERROR)
+OSError: Connection closed by server.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 317, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python3.6/site-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 593, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/loops.py", line 91, in asynloop
+    next(loop)
+  File "/usr/local/lib/python3.6/site-packages/kombu/asynchronous/hub.py", line 364, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 1083, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 354, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 734, in _brpop_read
+    **options)
+  File "/usr/local/lib/python3.6/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 637, in read_response
+    response = self._parser.read_response()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 290, in read_response
+    response = self._buffer.readline()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 224, in readline
+    self._read_from_socket()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 199, in _read_from_socket
+    (e.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: ('Connection closed by server.',)
+[2023-06-16 14:06:14,387: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error 111 connecting to redis:6379. Connection refused..
+Trying again in 2.00 seconds...
+
+[2023-06-16 14:06:16,394: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-06-16 14:06:16,406: INFO/MainProcess] mingle: searching for neighbors
+[2023-06-16 14:06:17,411: INFO/MainProcess] mingle: all alone
+[2023-06-16 14:06:27,561: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-06-16 14:06:27,570: INFO/MainProcess] mingle: searching for neighbors
+[2023-06-16 14:06:28,592: INFO/MainProcess] mingle: all alone
+[2023-06-16 14:06:28,603: INFO/MainProcess] celery@3e9644e3be69 ready.
+[2023-06-16 14:06:30,932: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-06-16 14:07:35,139: INFO/MainProcess] Received task: tasks.task1[27b3bcaa-d60b-4eb5-bd36-8aa131b109df]  
+[2023-06-16 14:07:35,146: INFO/MainProcess] Received task: tasks.task2[c4503124-c7df-447c-8689-09a3723ed664]  
+[2023-06-16 14:07:35,148: WARNING/ForkPoolWorker-1] start task1
+[2023-06-16 14:07:35,152: INFO/MainProcess] Received task: tasks.task3[ea2a9968-094a-49f2-bdbc-a47a2542b93f]  
+[2023-06-16 14:08:19,273: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 185, in _read_from_socket
+    raise socket.error(SERVER_CLOSED_CONNECTION_ERROR)
+OSError: Connection closed by server.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 317, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python3.6/site-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 593, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/loops.py", line 91, in asynloop
+    next(loop)
+  File "/usr/local/lib/python3.6/site-packages/kombu/asynchronous/hub.py", line 364, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 1083, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 354, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/redis.py", line 734, in _brpop_read
+    **options)
+  File "/usr/local/lib/python3.6/site-packages/redis/client.py", line 789, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 637, in read_response
+    response = self._parser.read_response()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 290, in read_response
+    response = self._buffer.readline()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 224, in readline
+    self._read_from_socket()
+  File "/usr/local/lib/python3.6/site-packages/redis/connection.py", line 199, in _read_from_socket
+    (e.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: ('Connection closed by server.',)
+[2023-06-16 14:08:19,275: WARNING/MainProcess] Restoring 2 unacknowledged message(s)
+[2023-06-16 14:08:19,303: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error 111 connecting to redis:6379. Connection refused..
+Trying again in 2.00 seconds...
+
+[2023-06-16 14:08:21,310: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-06-16 14:08:21,323: INFO/MainProcess] mingle: searching for neighbors
+[2023-06-16 14:08:22,328: INFO/MainProcess] mingle: all alone
+[2023-06-16 14:08:30,254: ERROR/MainProcess] Error on stopping Pool: TypeError("can't pickle _thread.lock objects",)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/worker.py", line 205, in start
+    self.blueprint.start(self)
+  File "/usr/local/lib/python3.6/site-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python3.6/site-packages/celery/bootsteps.py", line 369, in start
+    return self.obj.start()
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 317, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python3.6/site-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 593, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/loops.py", line 91, in asynloop
+    next(loop)
+  File "/usr/local/lib/python3.6/site-packages/kombu/asynchronous/hub.py", line 308, in create_loop
+    events = poll(poll_timeout)
+  File "/usr/local/lib/python3.6/site-packages/kombu/utils/eventio.py", line 84, in poll
+    return self._epoll.poll(timeout if timeout is not None else -1)
+  File "/usr/local/lib/python3.6/site-packages/celery/apps/worker.py", line 284, in _handle_request
+    raise exc(exitcode)
+celery.exceptions.WorkerShutdown: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/bootsteps.py", line 151, in send_all
+    fun(parent, *args)
+  File "/usr/local/lib/python3.6/site-packages/celery/bootsteps.py", line 373, in stop
+    return self.obj.stop()
+  File "/usr/local/lib/python3.6/site-packages/celery/concurrency/base.py", line 122, in stop
+    self.on_stop()
+  File "/usr/local/lib/python3.6/site-packages/celery/concurrency/prefork.py", line 140, in on_stop
+    self._pool.join()
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 1578, in join
+    stop_if_not_current(self._result_handler)
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 143, in stop_if_not_current
+    thread.stop(timeout)
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 500, in stop
+    self.on_stop_not_started()
+  File "/usr/local/lib/python3.6/site-packages/celery/concurrency/asynpool.py", line 332, in on_stop_not_started
+    check_timeouts()
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 744, in handle_event
+    next(self._it)
+  File "/usr/local/lib/python3.6/site-packages/billiard/pool.py", line 697, in handle_timeouts
+    cache = copy.deepcopy(self.cache)
+  File "/usr/local/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/usr/local/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/local/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/local/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/local/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/usr/local/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/local/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/local/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/local/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/usr/local/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/local/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/local/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/local/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/usr/local/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/local/lib/python3.6/copy.py", line 169, in deepcopy
+    rv = reductor(4)
+TypeError: can't pickle _thread.lock objects
+[2023-06-16 14:08:32,793: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-06-16 14:08:32,806: INFO/MainProcess] mingle: searching for neighbors
+[2023-06-16 14:08:33,829: INFO/MainProcess] mingle: all alone
+[2023-06-16 14:08:33,847: INFO/MainProcess] celery@3e9644e3be69 ready.
+[2023-06-16 14:08:36,201: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-06-16 14:08:48,683: INFO/MainProcess] Received task: tasks.task1[a765545a-0a63-4c95-bb03-c671b9938559]  
+[2023-06-16 14:08:48,692: INFO/MainProcess] Received task: tasks.task2[8cac76ad-b303-473e-b647-99274bd067ff]  
+[2023-06-16 14:08:48,695: WARNING/ForkPoolWorker-1] start task1
+[2023-06-16 14:08:48,726: INFO/MainProcess] Received task: tasks.task3[6387523b-0e36-4dbc-b00d-0f04d66cbfe8]  
+[2023-06-16 14:08:48,738: INFO/MainProcess] Received task: tasks.task2[6101e459-267f-4044-94bb-aa42f877886f]  
+[2023-06-16 14:09:48,799: INFO/ForkPoolWorker-1] Task tasks.task1[a765545a-0a63-4c95-bb03-c671b9938559] succeeded in 60.10437289199763s: None
+[2023-06-16 14:09:48,802: WARNING/ForkPoolWorker-1] start task2
+[2023-06-16 14:10:48,832: INFO/ForkPoolWorker-1] Task tasks.task2[8cac76ad-b303-473e-b647-99274bd067ff] succeeded in 60.030119963004836s: None
+[2023-06-16 14:10:48,834: WARNING/ForkPoolWorker-1] start task3
+[2023-06-16 14:11:48,881: INFO/ForkPoolWorker-1] Task tasks.task3[6387523b-0e36-4dbc-b00d-0f04d66cbfe8] succeeded in 60.04724282299867s: None
+[2023-06-16 14:11:48,883: WARNING/ForkPoolWorker-1] start task2
+[2023-06-16 14:12:48,931: INFO/ForkPoolWorker-1] Task tasks.task2[6101e459-267f-4044-94bb-aa42f877886f] succeeded in 60.047801181004616s: None
+[2023-06-16 15:08:23,662: INFO/MainProcess] Received task: tasks.task3[ea2a9968-094a-49f2-bdbc-a47a2542b93f]  
+[2023-06-16 15:08:23,664: INFO/MainProcess] Received task: tasks.task2[c4503124-c7df-447c-8689-09a3723ed664]  
+[2023-06-16 15:08:23,665: WARNING/ForkPoolWorker-1] start task3
+[2023-06-16 15:09:23,706: INFO/ForkPoolWorker-1] Task tasks.task3[ea2a9968-094a-49f2-bdbc-a47a2542b93f] succeeded in 60.041644206001365s: None
+[2023-06-16 15:09:23,709: WARNING/ForkPoolWorker-1] start task2
+[2023-06-16 15:10:23,769: INFO/ForkPoolWorker-1] Task tasks.task2[c4503124-c7df-447c-8689-09a3723ed664] succeeded in 60.06050834600319s: None
