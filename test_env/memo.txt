@@ -1,0 +1,5 @@
+
+## supervisorによるredisの再起動
+```cmd
+supervisorctl -c /code/supervisord.conf restart celery
+```

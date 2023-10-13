@@ -1,0 +1,10 @@
+importlib-metadata==4.13.0
+sqlalchemy
+psycopg2
+redis==2.10.6
+
+celery
+flower
+redis==2.10.6
+tornado==4.5.3
+future==0.16.0
