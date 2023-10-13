@@ -5,7 +5,7 @@ FROM node:latest
 WORKDIR /code
 
 # ホストのpackage.jsonをコンテナの作業ディレクトリにコピー
-COPY package.json .
+#COPY package.json .
 
 # 必要なパッケージのインストール
 RUN npm install
