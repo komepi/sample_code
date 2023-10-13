@@ -1,2 +1,7 @@
 __pycache__/
 .venv/
+logs/
+celerybeat-schedule
+*.egg-info
+dist
+.git
