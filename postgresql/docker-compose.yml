@@ -1,9 +1,24 @@
 version: '3'
 services:
-  db:
+  python3:
+    restart: always
     build: .
+    container_name: 'python3'
+    working_dir: '/root/src'
+    tty: true
+    ports:
+      - "5001:5000"
+    volumes:
+      - ${SRC_PATH}:/root/src
+    links:
+      - db
+    
+  db:
+    build: ./postgresql
     ports:
       - 5430:5432
     environment:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
+    
+  
