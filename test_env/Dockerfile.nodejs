@@ -1,0 +1,6 @@
+FROM node:lts
+
+WORKDIR /code
+RUN npm install -g @angular/cli@1.6.8
+
+EXPOSE 4200

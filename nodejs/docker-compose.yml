@@ -1,11 +1,12 @@
-version: "3.3"
+version: "3.7"
 services:
   nodejs:
     build:
       context: .
-      dockerfile: dockerfile
+      dockerfile: Dockerfile
     ports:
-      8080:8080
+      - 8080:8080
+    tty: true
     volumes:
       - type: bind
         source: .

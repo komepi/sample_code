@@ -8,3 +8,5 @@ flower
 redis==2.10.6
 tornado==4.5.3
 future==0.16.0
+
+Flask

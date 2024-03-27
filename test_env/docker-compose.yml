@@ -1,14 +1,21 @@
 version: '3'
 services:
   python:
-    build: .
+    build: 
+      context: .
+      dockerfile: Dockerfile.python
     tty: true
     ports:
       - "5001:5000"
+      - "8080:8080"
     volumes:
-      - .:/code
-      - ./logs:/logs
-    command: /bin/bash -c "/code/scripts/clean_logs.sh && /usr/bin/supervisord -c /code/supervisord.conf"
+      - type: bind
+        source: .
+        target: /code
+      - type: bind
+        source: ./logs
+        target: /logs
+    command: bash /code/scripts/start_flask.sh
     environment:
       - BROKER_URL=amqp://admin:mypass@rabbitmq:5672
       - RESULT_BACKEND=redis://redis:6379/0
@@ -18,9 +25,22 @@ services:
       - postgresql
       - redis
       - elasticsearch
+      - celery
     depends_on:
       - redis
       - rabbitmq
+
+  java:
+    build: 
+      context: .
+      dockerfile: Dockerfile.java
+    ports:
+      - 9000:9000
+    tty: true
+    volumes:
+      - type: bind
+        source: .
+        target: /code
   
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:7.11.1
@@ -95,6 +115,46 @@ services:
       - "5501:5555"
     links:
       - rabbitmq
+
+  celery:
+    build:
+      context: .
+      dockerfile: Dockerfile.python
+    volumes:
+      - type: bind
+        source: .
+        target: /code
+      - type: bind
+        source: ./logs
+        target: /logs
+    command: bash /code/scripts/start_celery.sh
+    environment:
+      - BROKER_URL=amqp://admin:mypass@rabbitmq:5672
+      - RESULT_BACKEND=redis://redis:6379/0
+      - C_FORCE_ROOT=true
+      - C_LOG_WIDTH=100
+    links:
+      - postgresql
+      - redis
+      - elasticsearch
+    depends_on:
+      - redis
+      - rabbitmq
+
+  #nodejs:
+  #  build:
+  #    context: .
+  #    dockerfile: Dockerfile.nodejs
+  #  volumes:
+  #    - type: bind
+  #      source: .
+  #      target: /code
+  #  environment:
+  #    - CHOKIDAR_USEPOLLING=true
+  #    - ANGULAR_VERSION = 1.6.8
+  #  tty: true
+  #  ports:
+  #    - "4200:4200"
 
 volumes:
   elasticsearch-data:

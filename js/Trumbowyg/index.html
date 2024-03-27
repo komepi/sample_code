@@ -24,6 +24,16 @@
             <p>testtesttestest</p>
         </div>
     </div>
-
+    <a class="same_class_btn" id="1" href="https://google.com"> test_button1</a>
+    <a class="same_class_btn" id="2" href="https://google.com"> test_button2</a>
+    <a class="same_class_btn" id="3" href="https://google.com"> test_button3</a>
+    <a class="same_class_btn" id="4" href="https://google.com"> test_button4</a>
+    <script>
+        $(".same_class_btn").on("click", function(event){
+            alert("clicked: "+$(this).attr("id"))
+            //event.preventDefault();
+            return False;
+        })
+    </script>
 </body>
 </html>
